@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+data/herd-raw.csv
+troubleshooting/
+artifacts/herd.csv
