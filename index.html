@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kara C. Hoover">
+
+<title>Federal Funding Dependency Varies Substantially by Research Field at R1 Universities</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="r1-federal-funding-dependency-fields_files/libs/clipboard/clipboard.min.js"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/popper.min.js"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="r1-federal-funding-dependency-fields_files/libs/quarto-html/anchor.min.js"></script>
+<link href="r1-federal-funding-dependency-fields_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="r1-federal-funding-dependency-fields_files/libs/quarto-html/quarto-syntax-highlighting-076ecbd647e1f0418c5051713cd9b730.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="r1-federal-funding-dependency-fields_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="r1-federal-funding-dependency-fields_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="r1-federal-funding-dependency-fields_files/libs/bootstrap/bootstrap-547e859215a1047392d8d450828ef99e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="blues quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research Question</a></li>
+  <li><a href="#research-answers" id="toc-research-answers" class="nav-link" data-scroll-target="#research-answers">Research Answers</a>
+  <ul class="collapse">
+  <li><a href="#federal-dependency-by-field-over-time" id="toc-federal-dependency-by-field-over-time" class="nav-link" data-scroll-target="#federal-dependency-by-field-over-time">Federal Dependency by Field Over Time</a></li>
+  <li><a href="#sub-field-trends-in-federal-dependency" id="toc-sub-field-trends-in-federal-dependency" class="nav-link" data-scroll-target="#sub-field-trends-in-federal-dependency">Sub-Field Trends in Federal Dependency</a></li>
+  <li><a href="#rd-funding-sources-by-broad-field" id="toc-rd-funding-sources-by-broad-field" class="nav-link" data-scroll-target="#rd-funding-sources-by-broad-field">R&amp;D Funding Sources by Broad Field</a></li>
+  <li><a href="#shifts-in-rd-type-basic-applied-and-development" id="toc-shifts-in-rd-type-basic-applied-and-development" class="nav-link" data-scroll-target="#shifts-in-rd-type-basic-applied-and-development">Shifts in R&amp;D Type: Basic, Applied, and Development</a></li>
+  <li><a href="#business-investment-by-field" id="toc-business-investment-by-field" class="nav-link" data-scroll-target="#business-investment-by-field">Business Investment by Field</a></li>
+  <li><a href="#foreign-funding-share" id="toc-foreign-funding-share" class="nav-link" data-scroll-target="#foreign-funding-share">Foreign Funding Share</a></li>
+  <li><a href="#forecasting-federal-dependency-by-broad-field" id="toc-forecasting-federal-dependency-by-broad-field" class="nav-link" data-scroll-target="#forecasting-federal-dependency-by-broad-field">Forecasting Federal Dependency by Broad Field</a></li>
+  </ul></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
+  <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design">Study Design</a></li>
+  <li><a href="#project-resources" id="toc-project-resources" class="nav-link" data-scroll-target="#project-resources">Project Resources</a></li>
+  <li><a href="#tools-technologies" id="toc-tools-technologies" class="nav-link" data-scroll-target="#tools-technologies">Tools &amp; Technologies</a></li>
+  <li><a href="#expertise" id="toc-expertise" class="nav-link" data-scroll-target="#expertise">Expertise</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Federal Funding Dependency Varies Substantially by Research Field at R1 Universities</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R&amp;D Funding Trends by Field</div>
+    <div class="quarto-category">R&amp;D Investments by Sector</div>
+    <div class="quarto-category">Data Visualization</div>
+    <div class="quarto-category">Animated GIF</div>
+    <div class="quarto-category">Time Series Forecasting</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kara C. Hoover </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
+<p><strong>Problem:</strong> Federal funding is the dominant source of research and development (R&amp;D) expenditures at R1 universities, but aggregate trends obscure substantial variation across scientific disciplines. As federal budgets face pressure and policy priorities shift, understanding which fields are most dependent on federal dollars – and how that dependency has changed over time – is essential for anticipating the impact of funding disruptions on the broader research pipeline.</p>
+<p><strong>Approach:</strong> This analysis extends prior work on aggregate federal funding dependency at R1 institutions by examining field-level variation using the NSF Higher Education Research and Development (HERD) Survey (1974–2024). Federal share of total R&amp;D expenditures is calculated for 24 science and engineering sub-fields across five decades. I investigate how funding investments vary by sector and field over time including R&amp;D types (basic, applied, development), where data are available based on HERD survey questions (which changed in 2010). ARIMA forecasting projects federal share trajectories through 2034 by broad field. Forecasts assume continuation of historical patterns and do not account for the 2025 federal funding disruptions and the planned 2026, including the signalling from the NSF that the social sciences directorate is to be phased out by 2027.</p>
+<p><strong>Insights:</strong> Federal dependency has declined across virtually every S&amp;E field since a peak in 1979, coinciding with the post-Cold War unwinding of defense and space-race research investment. Physical sciences and geosciences remain the most federally dependent fields; social sciences and life sciences have seen the largest absolute declines but show flat forecasts, suggesting a floor effect. Federal dollars are shifting away from basic research toward applied research faster than nonfederal dollars, while industry investment is not filling the basic research gap – it is growing only in the fields that have specific consumer (computer sciences) or health applications (life sciences). Foreign funding share peaked in 2016–2017 and has plateaued, reflecting COVID disruptions and potential geopolitical decoupling.</p>
+<p><strong>Significance:</strong> The field-level picture reveals a more fragmented and uneven research funding landscape than aggregate trends suggest. Disciplines like physical sciences and geosciences face both high federal dependency and declining investment, with little nonfederal backstop. The simultaneous shift toward applied R&amp;D types driven by federal priorities raises questions about the long-term health of basic research – particularly in fields where industry shows no compensating interest.</p>
+<p><strong>Key Findings</strong></p>
+<ul>
+<li>Federal dependency peaked across all S&amp;E fields in 1979 and has declined steadily since; engineering and environmental sciences entered the survey in 1979, coinciding with the founding of the Department of Energy.</li>
+<li>Physical sciences (astronomy, physics) remain the most federally dependent fields (70%+); social sciences and agricultural sciences are least dependent (35–50%), with larger institutional shares for the former.</li>
+<li>Federal dollars are shifting away from basic research (-0.42%/year) toward applied research (+0.28%/year) faster than nonfederal dollars, indicating that federal priorities – not institutional choices – are driving the R&amp;D type shift–with the caveat that basic research still dominates.</li>
+<li>Business investment in university R&amp;D is growing only in computer sciences (+8.2%/year relative) and life sciences (+6.9%/year), fields already oriented toward applied work; investments are declining in geosciences, psychology, and social sciences.</li>
+<li>ARIMA forecasts project continued decline in federal share across engineering, environmental sciences, and physical sciences through 2034, with social sciences and life sciences holding relatively flat.</li>
+</ul>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Evidence for Decision-Making</strong></p>
+<ul>
+<li>Fields with high federal dependency and low nonfederal alternatives (physical sciences, geosciences) face the greatest near-term risk from federal funding cuts.</li>
+<li>The federal shift toward applied R&amp;D, without compensating industry investment in basic research, signals a structural gap in the research pipeline that policy and institutional strategy should address.</li>
+<li>Social sciences face a politically driven funding threat not captured in historical trends; forecasts should be interpreted as a baseline, not a prediction.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="research-question" class="level2">
+<h2 class="anchored" data-anchor-id="research-question">Research Question</h2>
+<p>How does federal dependency vary across S&amp;E fields at R1 institutions over time and what do R&amp;D funding patterns reveal about changes in the research pipeline?</p>
+</section>
+<section id="research-answers" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="research-answers">Research Answers</h2>
+<section id="federal-dependency-by-field-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="federal-dependency-by-field-over-time">Federal Dependency by Field Over Time</h3>
+<p>Federal share of total R&amp;D expenditures varies substantially across S&amp;E sub-fields and has shifted markedly over five decades. The animated figure below shows federal dependency (x-axis) against total R&amp;D expenditure (y-axis, log scale) for 24 sub-fields from 1974 to 2009. Bubble size encodes total R&amp;D expenditure. Engineering and environmental sciences sub-fields enter the series in 1979, coinciding with the founding of the Department of Energy and the addition of these fields to the HERD survey instrument. Across all fields, federal share peaked in 1979 – the tail end of Cold War and space-race investment – and has declined since. Physical sciences (astronomy, physics) maintain the highest dependency throughout; life sciences (medical, biological) carry the highest total R&amp;D expenditure but sit at mid-range dependency; social sciences cluster at low dependency with little movement. Engineering enters at ~90%+ federal share in 1979 and declines most steeply, reflecting early DOE-driven investment giving way to diversified funding.</p>
+<p><strong>Figure 1. Federal share of R&amp;D expenditures by sub-field, 1974–2009. Bubble size indicates total R&amp;D expenditure (log scale). Color indicates broad field group.</strong></p>
+<p><img src="outputs/field_dependency.gif" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in Figure 1, physical sciences maintain the highest federal dependency and high total R&amp;D expenditure throughout the series while social sciences have low dependency and low total expenditure. Engineering sub-fields enter at very high dependency (~90%+) in 1979 and decline rapidly.</p>
+<p>The 1979 peak is not an artifact. Federal R&amp;D as a share of GDP reached 1.86% at its prior peak in 1964; by 2021 it had fallen to 0.66%, with business funding rising to 2.52%. The animation captures the institutional consequence of that national-level shift – universities absorbing a declining federal share across every discipline simultaneously, while total R&amp;D expenditures continued to grow. A brief uptick is visible around 2010–2011, reflecting the American Recovery and Reinvestment Act (ARRA) infusion of federal research dollars during the economic recovery, before the decline resumes from 2012 onward. Table 1 summarizes peak share, peak year, minimum share, and net change per sub-field. Engineering bioengineering and biomedical is the only sub-field showing net positive change (+10.2%), reflecting the growth of NIH-adjacent translational research over the period. Agricultural sciences shows the smallest absolute decline (-1.3%), consistent with its historically low federal share and stable USDA funding base.</p>
+<p><strong>Table 1. Federal share of R&amp;D expenditures by sub-field: peak, minimum, and net change, 1974–2009.</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Peak share</th>
+<th>Peak year</th>
+<th>Min share</th>
+<th>Net change</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Engineering, Aero/Astro</td>
+<td>99.4%</td>
+<td>1979</td>
+<td>62.0%</td>
+<td>-29.3%</td>
+</tr>
+<tr class="even">
+<td>Environmental sciences, Atmos</td>
+<td>98.8%</td>
+<td>1979</td>
+<td>72.2%</td>
+<td>-26.4%</td>
+</tr>
+<tr class="odd">
+<td>Engineering, Elec</td>
+<td>98.7%</td>
+<td>1979</td>
+<td>55.6%</td>
+<td>-34.4%</td>
+</tr>
+<tr class="even">
+<td>Environmental sciences, Earth</td>
+<td>98.7%</td>
+<td>1979</td>
+<td>60.1%</td>
+<td>-32.6%</td>
+</tr>
+<tr class="odd">
+<td>Environmental sciences, Ocean</td>
+<td>98.7%</td>
+<td>1979</td>
+<td>58.7%</td>
+<td>-40.0%</td>
+</tr>
+<tr class="even">
+<td>Engineering, Mech</td>
+<td>98.3%</td>
+<td>1979</td>
+<td>53.6%</td>
+<td>-36.5%</td>
+</tr>
+<tr class="odd">
+<td>Environmental sciences, Other</td>
+<td>97.4%</td>
+<td>1979</td>
+<td>43.0%</td>
+<td>-40.3%</td>
+</tr>
+<tr class="even">
+<td>Engineering, Other</td>
+<td>96.6%</td>
+<td>1979</td>
+<td>46.2%</td>
+<td>-48.1%</td>
+</tr>
+<tr class="odd">
+<td>Engineering, Chem</td>
+<td>95.7%</td>
+<td>1979</td>
+<td>50.4%</td>
+<td>-39.0%</td>
+</tr>
+<tr class="even">
+<td>Physical sciences, Physics</td>
+<td>92.2%</td>
+<td>1976</td>
+<td>67.9%</td>
+<td>-15.8%</td>
+</tr>
+<tr class="odd">
+<td>Physical sciences, Astro</td>
+<td>86.9%</td>
+<td>1985</td>
+<td>70.8%</td>
+<td>-6.1%</td>
+</tr>
+<tr class="even">
+<td>Physical sciences, Chem</td>
+<td>85.8%</td>
+<td>1974</td>
+<td>63.7%</td>
+<td>-18.4%</td>
+</tr>
+<tr class="odd">
+<td>Physical sciences, Other</td>
+<td>84.8%</td>
+<td>1976</td>
+<td>52.2%</td>
+<td>-18.1%</td>
+</tr>
+<tr class="even">
+<td>Life sciences, Bio</td>
+<td>80.8%</td>
+<td>1975</td>
+<td>62.1%</td>
+<td>-14.9%</td>
+</tr>
+<tr class="odd">
+<td>Life sciences, Other</td>
+<td>77.4%</td>
+<td>1975</td>
+<td>57.2%</td>
+<td>-15.6%</td>
+</tr>
+<tr class="even">
+<td>Life sciences, Med</td>
+<td>74.6%</td>
+<td>1974</td>
+<td>53.9%</td>
+<td>-15.6%</td>
+</tr>
+<tr class="odd">
+<td>Social sciences, Soc</td>
+<td>73.3%</td>
+<td>1980</td>
+<td>48.3%</td>
+<td>-9.8%</td>
+</tr>
+<tr class="even">
+<td>Engineering, Mats</td>
+<td>67.5%</td>
+<td>2005</td>
+<td>56.4%</td>
+<td>-0.4%</td>
+</tr>
+<tr class="odd">
+<td>Engineering, Civil</td>
+<td>66.4%</td>
+<td>1980</td>
+<td>50.0%</td>
+<td>-8.3%</td>
+</tr>
+<tr class="even">
+<td>Engineering, Bio</td>
+<td>64.7%</td>
+<td>2009</td>
+<td>50.4%</td>
+<td>+10.2%</td>
+</tr>
+<tr class="odd">
+<td>Social sciences, Other</td>
+<td>61.6%</td>
+<td>1974</td>
+<td>28.0%</td>
+<td>-18.8%</td>
+</tr>
+<tr class="even">
+<td>Social sciences, Econ</td>
+<td>60.7%</td>
+<td>1978</td>
+<td>37.9%</td>
+<td>-17.9%</td>
+</tr>
+<tr class="odd">
+<td>Social sciences, PoliSci</td>
+<td>59.4%</td>
+<td>1974</td>
+<td>28.1%</td>
+<td>-19.6%</td>
+</tr>
+<tr class="even">
+<td>Life sciences, Ag</td>
+<td>46.4%</td>
+<td>1977</td>
+<td>28.8%</td>
+<td>-1.3%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="sub-field-trends-in-federal-dependency" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sub-field-trends-in-federal-dependency">Sub-Field Trends in Federal Dependency</h3>
+<p>The interactive figure below shows loess-smoothed federal share trends for each sub-field from 1974 to 2009, faceted by broad field group. Lines are colored by rank of ending federal share value – darker lines indicate higher federal dependency at the end of the series. Hover over a line to identify the sub-field.</p>
+<p>Decline is near-universal across sub-fields, but rates differ substantially within broad fields. In engineering, aeronautical and astronautical sciences maintain the highest dependency while civil and general engineering decline furthest – a gap of nearly 20 percentage points by end of series. In life sciences, biological and medical sciences hold above 50% while agricultural sciences fall to ~35%, reflecting heavy USDA and institutional funding in that sub-field rather than federal research grants. Social sciences show the most compressed range, with all sub-fields declining modestly and clustering between 35–55% by end of series – the narrowest spread of any broad field group. Physical sciences show the opposite pattern: a wide spread maintained throughout, with astronomy remaining above 70% and physical sciences other falling below 60%.</p>
+<p><strong>Figure 2. Federal share of R&amp;D expenditures by sub-field, 1974–2009. Lines smoothed using loess. Color indicates relative federal dependency rank within each broad field at end of series (darker = higher dependency).</strong></p>
+<div class="column-page">
+<iframe src="outputs/federal_share_by_field.html" width="100%" height="900px" frameborder="0">
+</iframe>
+</div>
+<p><strong>Interpretation:</strong> As shown in Figure 2, within-field variation is as important as between-field variation – the sub-field a researcher works in matters as much as the broad discipline for understanding federal funding exposure.</p>
+<hr>
+</section>
+<section id="rd-funding-sources-by-broad-field" class="level3">
+<h3 class="anchored" data-anchor-id="rd-funding-sources-by-broad-field">R&amp;D Funding Sources by Broad Field</h3>
+<p>The figures below show the composition of total R&amp;D funding (federal and nonfederal) and nonfederal funding only, by broad field from 2010 to 2024. Data are from the HERD survey questions on federal expenditures by field and agency and nonfederal expenditures by field and source. These data are available only from 2010 onward following the HERD survey instrument change.</p>
+<p>Federal funding dominates across all broad fields, but the degree varies substantially. Physical sciences and environmental sciences show the highest federal share (~75%+), consistent with the sub-field trends in <strong>Figure 1</strong> and <strong>Figure 2</strong>. Life sciences show a notable nonprofit component alongside federal funding, reflecting NIH-adjacent foundation and voluntary health organization support. Engineering shows the largest business component of any field, though it remains small relative to federal and institutional shares.</p>
+<p><strong>Figure 3. Share of total R&amp;D expenditures by funding source and broad field, 2010–2024. Sources stacked by average share across all years.</strong></p>
+<p><img src="outputs/source_by_field.png" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 3</strong>, federal funding dominates total R&amp;D expenditures across all fields, with physical sciences and environmental sciences most dependent and life sciences showing the largest nonprofit share of any broad field group.</p>
+<p>Institution funds dominate nonfederal expenditures across all fields, indicating that universities themselves are the primary backstop when federal funding falls short. Nonprofit organizations are the second-largest nonfederal source in life sciences, consistent with the prominence of disease-focused foundations. Business funding is most visible in engineering and computer sciences, but remains a small share of nonfederal expenditures even in those fields – a finding that becomes more significant in the context of the R&amp;D type shifts examined below.</p>
+<p><strong>Figure 4. Share of nonfederal R&amp;D expenditures by source and broad field, 2010–2024. Sources stacked by average share across all years.</strong></p>
+<p><img src="outputs/nonfed_by_field.png" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 4</strong>, institution funds are the primary nonfederal backstop across all fields – universities are absorbing risk, not replacing revenue.</p>
+<p>The aggregate picture confirms that this pattern has been stable since 1974 – federal dominance, growing institution funds, and minimal industry contribution – a structural feature of university R&amp;D financing that has not shifted in 50 years.</p>
+<p><strong>Figure 5. Aggregate share of R&amp;D expenditures by source, 1974–2024.</strong></p>
+<p><img src="outputs/source_aggregate.png" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 5</strong>, the aggregate source mix has been remarkably stable since 1974, with federal dominance unchanged and industry contribution remaining minimal throughout the full series.</p>
+<hr>
+</section>
+<section id="shifts-in-rd-type-basic-applied-and-development" class="level3">
+<h3 class="anchored" data-anchor-id="shifts-in-rd-type-basic-applied-and-development">Shifts in R&amp;D Type: Basic, Applied, and Development</h3>
+<p>Federal and nonfederal funding differ in how they are allocated across R&amp;D types. The figure below shows shares of basic research, applied research, and experimental development from 2010 to 2024, with linear trend lines faceted by federal and nonfederal funding.</p>
+<p><strong>Figure 6. Share of R&amp;D expenditures by type (basic, applied, development), faceted by federal and nonfederal source, 2010–2024. Points show annual values; lines show linear trend.</strong></p>
+<p><img src="outputs/rdtype_lm.png" class="img-fluid"></p>
+<p>As shown in <strong>Figure 6</strong> and <strong>Table 2</strong>, federal dollars are shifting away from basic research faster (-0.42%/year) than nonfederal dollars (-0.19%/year), and toward applied research faster (+0.28%/year vs +0.11%/year). Development is increasing in both but slowly. The magnitude of the federal shift is roughly double the nonfederal shift across all three R&amp;D types, indicating that federal agencies are reorienting their university research portfolios toward near-term application at a pace that institutional and philanthropic funders are not matching. This means federal funding priorities – not institutional or philanthropic choices – are the primary driver of the overall shift away from basic science at R1 universities.</p>
+<p><strong>Table 2. Linear model slopes for R&amp;D type shares by funding source, 2010–2024 (%/year).</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>R&amp;D Type</th>
+<th>Federal slope</th>
+<th>Nonfederal slope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic research</td>
+<td>-0.42</td>
+<td>-0.19</td>
+</tr>
+<tr class="even">
+<td>Applied research</td>
+<td>+0.28</td>
+<td>+0.11</td>
+</tr>
+<tr class="odd">
+<td>Development</td>
+<td>+0.14</td>
+<td>+0.08</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 6</strong> and <strong>Table 2</strong>, federal funding is driving the shift away from basic research at roughly twice the rate of nonfederal funding – a structural reorientation of the university research pipeline that cannot be attributed to institutional choice alone.</p>
+<hr>
+</section>
+<section id="business-investment-by-field" class="level3">
+<h3 class="anchored" data-anchor-id="business-investment-by-field">Business Investment by Field</h3>
+<p>If federal funding is shifting toward applied research, one might expect industry to fill the basic research gap. The figure below shows business R&amp;D investment trends by broad field from 2010 to 2024.</p>
+<p><strong>Figure 7. Business R&amp;D expenditures by broad field, 2010–2024. Dashed line shows linear trend.</strong></p>
+<p><img src="outputs/industry_by_field.png" class="img-fluid"></p>
+<p>As shown in <strong>Figure 7</strong> and <strong>Table 3</strong>, business investment is growing in the fields already most oriented toward applied and translational work – computer sciences (+8.2%/year relative growth) and life sciences (+6.9%/year) – and declining in geosciences, psychology, and social sciences. The fields gaining industry investment are already the most commercially relevant; the fields losing it are those with the least commercial application. This confirms that industry is not compensating for the federal shift away from basic research – it is amplifying the applied turn in fields already moving in that direction, while withdrawing from fields that depend most heavily on public investment for their research identity.</p>
+<p><strong>Table 3. Relative growth rate of business R&amp;D investment by broad field, 2010–2024 (%/year).</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Relative growth (%/year)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Computer Sciences</td>
+<td>+8.2</td>
+</tr>
+<tr class="even">
+<td>Life sciences</td>
+<td>+6.9</td>
+</tr>
+<tr class="odd">
+<td>Physical sciences</td>
+<td>+5.9</td>
+</tr>
+<tr class="even">
+<td>Mathematics</td>
+<td>+4.3</td>
+</tr>
+<tr class="odd">
+<td>Engineering</td>
+<td>+3.3</td>
+</tr>
+<tr class="even">
+<td>Social sciences</td>
+<td>-0.1</td>
+</tr>
+<tr class="odd">
+<td>Psychology</td>
+<td>-2.5</td>
+</tr>
+<tr class="even">
+<td>Geosciences</td>
+<td>-3.1</td>
+</tr>
+<tr class="odd">
+<td>Other</td>
+<td>-8.2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 7</strong> and <strong>Table 3</strong>, industry investment is not filling the basic research gap – it is growing only where federal dollars are also shifting toward application, leaving fields dependent on basic research funding with no compensating source.</p>
+<hr>
+</section>
+<section id="foreign-funding-share" class="level3">
+<h3 class="anchored" data-anchor-id="foreign-funding-share">Foreign Funding Share</h3>
+<p>Foreign funding share rose from 1.2% in 2010 to a peak of ~1.9% in 2016–2017, then declined and plateaued around 1.7% through 2024, with a slight uptick in the final year. The plateau post-2019 likely reflects COVID-related disruptions to international research collaboration and early geopolitical decoupling pressures, particularly around Chinese government-affiliated funding sources which faced increased scrutiny from federal agencies during this period. The overall linear trend remains positive across the full series, but the trajectory since 2017 suggests the rapid growth phase has ended.</p>
+<p><strong>Figure 8. Foreign funds as a share of total R&amp;D expenditures, 2010–2024. Dashed line shows linear trend.</strong></p>
+<p><img src="outputs/foreign_share.png" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 8</strong>, foreign funding is a small but growing share of total R&amp;D expenditure at R1 institutions, with recent plateauing that likely reflects geopolitical pressures rather than declining international research interest.</p>
+<hr>
+</section>
+<section id="forecasting-federal-dependency-by-broad-field" class="level3">
+<h3 class="anchored" data-anchor-id="forecasting-federal-dependency-by-broad-field">Forecasting Federal Dependency by Broad Field</h3>
+<p>ARIMA models were fit to annual federal share by broad field using data from 1974 to 2024. The figure below shows historical trends and 10-year forecasts with 95% confidence intervals. Forecasts assume continuation of historical patterns and do not account for the 2025 federal funding disruptions, which are likely to accelerate declines in fields targeted by recent executive actions.</p>
+<p>Engineering shows the widest confidence interval of any field – a direct consequence of the high volatility introduced when engineering sub-fields entered the survey in 1979 at near-total federal dependency and declined rapidly over the following two decades. That early period dominates the variance estimate and makes the engineering forecast the least reliable. Physical sciences and environmental sciences forecast continued gradual decline, consistent with the long downward trend visible in <strong>Figures 1</strong> and <strong>2</strong>. Social sciences and life sciences forecast relatively flat trajectories, suggesting a floor effect where institutional and nonfederal sources absorb further federal retreat at current dependency levels. All forecasts carry substantial uncertainty and should be read as directional signals; the 2025 policy environment makes downward departures from these baselines plausible in the near term for all fields.</p>
+<p><strong>Figure 9. Federal share of R&amp;D expenditures by broad field, 1974–2024, with ARIMA forecast to 2034. Dashed line shows forecast; shaded area shows 95% confidence interval.</strong></p>
+<p><img src="outputs/forecast_by_field.png" class="img-fluid"></p>
+<p><strong>Interpretation:</strong> As shown in <strong>Figure 9</strong>, all fields are forecast to maintain or decline in federal dependency through 2034 under historical trend assumptions – there is no field where the model projects recovery.</p>
+</section>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<ul>
+<li><strong>Non-R1 comparison:</strong> The most significant gap in this analysis is the absence of non-R1 institutions. Community colleges, teaching universities, and minority-serving institutions engage in R&amp;D at lower volumes but with different funding compositions. A companion analysis using the full HERD population would reveal whether field-level dependency patterns are R1-specific or systemic.</li>
+<li><strong>Non-S&amp;E fields:</strong> Education research, collected in HERD from 2003 onward, was excluded from the main analysis due to the short series and the structural non-comparability with S&amp;E fields. A focused analysis of education R&amp;D funding – particularly its high federal share and volatility – would complement this work given current policy debates.</li>
+<li><strong>Agency-level breakdown:</strong> The HERD question on federal expenditures by field and agency (DOD, DOE, HHS, NASA, NSF, USDA) enables a finer-grained analysis of which agencies drive dependency in which fields. This would be particularly valuable for assessing the impact of agency-specific budget changes.</li>
+<li><strong>2025 policy shock:</strong> The forecasts in this analysis are based on historical patterns and cannot capture the effects of 2025 federal funding disruptions. A follow-up analysis using 2025 and 2026 HERD data when available would provide an empirical baseline for assessing the impact of executive actions on field-level funding.</li>
+</ul>
+</section>
+<section id="study-design" class="level2">
+<h2 class="anchored" data-anchor-id="study-design">Study Design</h2>
+<p><strong>Data Source:</strong> NSF National Center for Science and Engineering Statistics (NCSES) Higher Education Research and Development (HERD) Survey, fiscal years 1974–2024. Data accessed via the NCSES data portal. The HERD Survey replaced the Academic R&amp;D Expenditures Survey in FY 2010; data from both instruments are included in this analysis.</p>
+<p><strong>Data Handling:</strong> Analysis is restricted to R1 doctoral universities (Carnegie Classification) matched to HERD institutions via cleaned institution names. Non-S&amp;E fields (business, humanities, law, social work, visual and performing arts) are excluded from the main field-level analysis due to structural data gaps before 2003 and their limited relevance to the core research pipeline question. The “All” and field-group aggregate rows are excluded to avoid double-counting; analysis uses sub-field rows only for the bubble and loess figures, and broad field aggregates for the alluvial and forecast figures. Federal share is calculated as federal expenditures divided by total expenditures for each field-institution-year observation. Observations with missing federal share (NA) are excluded; these represent structural gaps in reporting, not true zeros. Nonfederal source and R&amp;D type data are available from 2010 onward only, reflecting the HERD instrument change. A NCSES typo (“Nonprofit organziations”) is corrected in the analysis script.</p>
+<p><strong>Analytical Approach:</strong></p>
+<ol type="1">
+<li>Federal share of total R&amp;D expenditures calculated by sub-field and year across all R1 institutions</li>
+<li>Animated bubble chart: mean federal share (x) vs log total expenditure (y) by sub-field and year, 1974–2009</li>
+<li>Faceted interactive loess chart: federal share trends by sub-field, colored by end-of-series dependency rank</li>
+<li>Alluvial charts: funding source composition (federal + nonfederal) by broad field, 2010–2024</li>
+<li>Linear models fit to R&amp;D type shares (basic, applied, development) by federal and nonfederal source, 2010–2024</li>
+<li>Linear models fit to business investment by broad field, 2010–2024, with relative growth rates calculated as slope divided by mean total</li>
+<li>Foreign funding share calculated relative to total R&amp;D expenditures, 2010–2024</li>
+<li>ARIMA models (auto.arima) fit to annual mean federal share by broad field, 1974–2024, with 10-year forecasts and 95% confidence intervals</li>
+</ol>
+</section>
+<section id="project-resources" class="level2">
+<h2 class="anchored" data-anchor-id="project-resources">Project Resources</h2>
+<p><strong>Repository:</strong> <a href="https://github.com/kchoover14/r1-federal-funding-dependency-fields">kchoover14/r1-federal-funding-dependency-fields</a></p>
+<p><strong>Data:</strong></p>
+<ul>
+<li>HERD Survey data (FY 1974–2024), NSF NCSES – raw data stored in <code>data/</code> folder, not pushed to repo due to file size</li>
+</ul>
+<p><strong>Code:</strong></p>
+<ul>
+<li><code>prep-herd_data-fields.R</code> – filters and cleans raw HERD data for questions of interest</li>
+<li><code>prep-final_data.R</code> – joins HERD data to Carnegie R1 classification via exact and fuzzy matching</li>
+<li><code>analysis.R</code> – data preparation, all figures, tables, and ARIMA forecasts</li>
+</ul>
+<p><strong>Project Artifacts:</strong></p>
+<ul>
+<li>Figures (n=9): PNG and GIF outputs in <code>outputs/</code></li>
+<li>Interactive figure (n=1): <code>outputs/federal_share_by_field.html</code></li>
+</ul>
+<p><strong>Environment:</strong></p>
+<ul>
+<li><code>renv.lock</code> and <code>renv/</code> – restore with <code>renv::restore()</code></li>
+</ul>
+<p><strong>License:</strong></p>
+<ul>
+<li>Code and scripts © Kara C. Hoover, licensed under the <a href="LICENSE">MIT License</a>.</li>
+<li>Data, figures, and written content © Kara C. Hoover, licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</li>
+</ul>
+</section>
+<section id="tools-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="tools-technologies">Tools &amp; Technologies</h2>
+<p><strong>Languages</strong> | R</p>
+<p><strong>Tools</strong> | Quarto | GitHub Pages</p>
+<p><strong>Packages</strong> | dplyr | tidyr | ggplot2 | ggrepel | gganimate | ggiraph | ggalluvial | htmlwidgets | forecast | viridis | scales | stringr | readxl | fuzzyjoin | stringdist | janitor | gifski</p>
+</section>
+<section id="expertise" class="level2">
+<h2 class="anchored" data-anchor-id="expertise">Expertise</h2>
+<p><strong>Domain Expertise:</strong> Higher education policy | Research funding analysis | Federal science policy | Time series analysis</p>
+<p><strong>Transferable Expertise:</strong> This project demonstrates the capacity to translate large longitudinal administrative datasets into field-level policy intelligence – identifying which scientific disciplines face structural funding risk and where compensating investment is and is not emerging, at a level of specificity that supports targeted institutional and federal policy response.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

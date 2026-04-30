@@ -1,0 +1,596 @@
+dist,flag,Action,herd_name_clean,carnegie_name_clean,carnegie_city,herd_carnegieCycle,carnegie_year
+0.115384615,Possible Bad Match,Good Match,carnegie mellon u,carnegie mellon university,pittsburgh,1987,1987
+0.115384615,Possible Bad Match,Good Match,carnegie mellon u,carnegie mellon university,pittsburgh,1994,1994
+0.115384615,Possible Bad Match,Good Match,carnegie mellon u,carnegie mellon university,pittsburgh,2000,2000
+0.115384615,Possible Bad Match,Good Match,carnegie mellon u,carnegie mellon university,pittsburgh,2005,2005
+0.076923077,Possible Bad Match,Good Match,carnegie mellon univ,carnegie mellon university,pittsburgh,1987,1987
+0.096774194,Possible Bad Match,Good Match,case western reserve u,case western reserve university,cleveland,1987,1987
+0.096774194,Possible Bad Match,Good Match,case western reserve u,case western reserve university,cleveland,1994,1994
+0.096774194,Possible Bad Match,Good Match,case western reserve u,case western reserve university,cleveland,2000,2000
+0.096774194,Possible Bad Match,Good Match,case western reserve u,case western reserve university,cleveland,2005,2005
+0.064516129,Possible Bad Match,Good Match,case western reserve univ,case western reserve university,cleveland,1976,1976
+0.064516129,Possible Bad Match,Good Match,case western reserve univ,case western reserve university,cleveland,1987,1987
+0.133751306,Possible Bad Match,Good Match,claremont graduate sch,claremont graduate university,claremont,2000,2000
+0.114035088,Possible Bad Match,Good Match,colorado state university,colorado state university fort collins,fort collins,1976,1976
+0.114035088,Possible Bad Match,Good Match,colorado state university,colorado state university fort collins,fort collins,1994,1994
+0.114035088,Possible Bad Match,Good Match,colorado state university,colorado state university fort collins,fort collins,2000,2000
+0.114035088,Possible Bad Match,Good Match,colorado state university,colorado state university fort collins,fort collins,2005,2005
+0.09375,Possible Bad Match,Good Match,florida international u,florida international university,miami,2000,2000
+0.107142857,Possible Bad Match,Good Match,george washington u,george washington university,washington,2000,2000
+0.139534884,Possible Bad Match,Good Match,georgia institute of tech,georgia institute of technology main campus,atlanta,1987,1987
+0.139534884,Possible Bad Match,Good Match,georgia institute of tech,georgia institute of technology main campus,atlanta,1994,1994
+0.139534884,Possible Bad Match,Good Match,georgia institute of tech,georgia institute of technology main campus,atlanta,2000,2000
+0.139534884,Possible Bad Match,Good Match,georgia institute of tech,georgia institute of technology main campus,atlanta,2005,2005
+0.093023256,Possible Bad Match,Good Match,georgia institute of technology,georgia institute of technology main campus,atlanta,2005,2005
+0.133333333,Possible Bad Match,Good Match,indiana university,indiana university bloomington,bloomington,1987,1987
+0.133333333,Possible Bad Match,Good Match,indiana university,indiana university bloomington,bloomington,1994,1994
+0.133333333,Possible Bad Match,Good Match,indiana university,indiana university bloomington,bloomington,2000,2000
+0.133333333,Possible Bad Match,Good Match,indiana university,indiana university bloomington,bloomington,2005,2005
+0.091954023,Possible Bad Match,Good Match,kent state university,kent state university at kent,kent,2000,2000
+0.107142857,Possible Bad Match,Good Match,mississippi state u,mississippi state university,mississippi state,2000,2000
+0.083333333,Possible Bad Match,Good Match,montana state university bozeman,montana state university,bozeman,2005,2005
+0.111111111,Possible Bad Match,Good Match,new mexico state u,new mexico state university,las cruces,1994,1994
+0.074074074,Possible Bad Match,Good Match,new mexico state univ,new mexico state university,las cruces,1994,1994
+0.074074074,Possible Bad Match,Good Match,new mexico state univ,new mexico state university,las cruces,2000,2000
+0.087301587,Possible Bad Match,Good Match,north carolina state university,north carolina state university at raleigh,raleigh,1994,1994
+0.087301587,Possible Bad Match,Good Match,north carolina state university,north carolina state university at raleigh,raleigh,2000,2000
+0.087301587,Possible Bad Match,Good Match,north carolina state university,north carolina state university at raleigh,raleigh,2005,2005
+0.107142857,Possible Bad Match,Good Match,northern illinois u,northern illinois university,dekalb,2000,2000
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,1973,1973
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,1976,1976
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,1987,1987
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,1994,1994
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,2000,2000
+0.121212121,Possible Bad Match,Good Match,ohio state university,ohio state university main campus,columbus,2005,2005
+0.148148148,Possible Bad Match,Good Match,ohio university,ohio university main campus,athens,2000,2000
+0.108108108,Possible Bad Match,Good Match,oklahoma state university,oklahoma state university main campus,stillwater,2000,2000
+0.146341463,Possible Bad Match,Good Match,pennsylvania state univ,pennsylvania state university main campus,university park,1976,1976
+0.146341463,Possible Bad Match,Good Match,pennsylvania state univ,pennsylvania state university main campus,university park,1987,1987
+0.097560976,Possible Bad Match,Good Match,pennsylvania state university,pennsylvania state university main campus,university park,1973,1973
+0.097560976,Possible Bad Match,Good Match,pennsylvania state university,pennsylvania state university main campus,university park,1976,1976
+0.097560976,Possible Bad Match,Good Match,pennsylvania state university,pennsylvania state university main campus,university park,2005,2005
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,1973,1973
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,1976,1976
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,1987,1987
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,1994,1994
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,2000,2000
+0.137931034,Possible Bad Match,Good Match,purdue university,purdue university main campus,west lafayette,2005,2005
+0.097222222,Possible Bad Match,Good Match,rensselaer polytech inst,rensselaer polytechnic institute,troy,2000,2000
+0.097222222,Possible Bad Match,Good Match,rensselaer polytech inst,rensselaer polytechnic institute,troy,2005,2005
+0.090909091,Possible Bad Match,Good Match,rockefeller univ,rockefeller university,new york,1994,1994
+0.106837607,Possible Bad Match,Good Match,southern illinois univ carbondale,southern illinois university carbondale,carbondale,2000,2000
+0.103448276,Possible Bad Match,Good Match,southern methodist u,southern methodist university,dallas,2000,2000
+0.116883117,Possible Bad Match,Good Match,suny albany,suny at albany,albany,2005,2005
+0.122222222,Possible Bad Match,Good Match,suny buffalo,suny at buffalo,buffalo,1994,1994
+0.122222222,Possible Bad Match,Good Match,suny buffalo,suny at buffalo,buffalo,2005,2005
+0.115131579,Possible Bad Match,Good Match,suny stony brook,suny at stony brook,stony brook,1994,1994
+0.115131579,Possible Bad Match,Good Match,suny stony brook,suny at stony brook,stony brook,2005,2005
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,1973,1973
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,1976,1976
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,1987,1987
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,1994,1994
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,2000,2000
+0.133333333,Possible Bad Match,Good Match,texas a and m university,texas a and m university college station,college station,2005,2005
+0.141429285,Possible Bad Match,Good Match,university hawaii manoa,university of hawaii at manoa,honolulu,1994,1994
+0.133333333,Possible Bad Match,Remove,university of alabama,university of alabama at birmingham,birmingham,1994,1994
+0.133333333,Possible Bad Match,Remove,university of alabama,university of alabama at birmingham,birmingham,2000,2000
+0.133333333,Possible Bad Match,Remove,university of alabama,university of alabama at birmingham,birmingham,2005,2005
+0.088888889,Possible Bad Match,Good Match,university of colorado,university of colorado boulder,boulder,1973,1973
+0.088888889,Possible Bad Match,Good Match,university of colorado,university of colorado boulder,boulder,1976,1976
+0.088888889,Possible Bad Match,Good Match,university of colorado,university of colorado boulder,boulder,1987,1987
+0.088888889,Possible Bad Match,Good Match,university of colorado,university of colorado boulder,boulder,1994,1994
+0.149466416,Possible Bad Match,Good Match,university of colorado health sciences center,university of colorado at denver and health sciences center,denver,2005,2005
+0.066534041,Possible Bad Match,Good Match,university of hawaii manoa,university of hawaii at manoa,honolulu,1973,1973
+0.066534041,Possible Bad Match,Good Match,university of hawaii manoa,university of hawaii at manoa,honolulu,1976,1976
+0.066534041,Possible Bad Match,Good Match,university of hawaii manoa,university of hawaii at manoa,honolulu,2005,2005
+0.122222222,Possible Bad Match,Good Match,university of il chicago,university of illinois chicago,chicago,1994,1994
+0.058080808,Possible Bad Match,Good Match,university of illinois at chicago,university of illinois chicago,chicago,1994,1994
+0.058080808,Possible Bad Match,Good Match,university of illinois at chicago,university of illinois chicago,chicago,2000,2000
+0.058080808,Possible Bad Match,Good Match,university of illinois at chicago,university of illinois chicago,chicago,2005,2005
+0.075091575,Possible Bad Match,Good Match,university of illinois at urbana champaign,university of illinois urbana champaign,champaign,1973,1973
+0.075091575,Possible Bad Match,Good Match,university of illinois at urbana champaign,university of illinois urbana champaign,champaign,1976,1976
+0.075091575,Possible Bad Match,Good Match,university of illinois at urbana champaign,university of illinois urbana champaign,champaign,2005,2005
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,1973,1973
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,1976,1976
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,1987,1987
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,1994,1994
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,2000,2000
+0.104166667,Possible Bad Match,Good Match,university of michigan,university of michigan ann arbor,ann arbor,2005,2005
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,1973,1973
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,1976,1976
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,1987,1987
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,1994,1994
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,2000,2000
+0.114285714,Possible Bad Match,Good Match,university of minnesota,university of minnesota twin cities,minneapolis,2005,2005
+0.052422481,Possible Bad Match,Good Match,university of north carolina chapel hill,university of north carolina at chapel hill,chapel hill,1973,1973
+0.052422481,Possible Bad Match,Good Match,university of north carolina chapel hill,university of north carolina at chapel hill,chapel hill,1976,1976
+0.052422481,Possible Bad Match,Good Match,university of north carolina chapel hill,university of north carolina at chapel hill,chapel hill,2005,2005
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,1973,1973
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,1976,1976
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,1987,1987
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,1994,1994
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,2000,2000
+0.142857143,Possible Bad Match,Good Match,university of pittsburgh,university of pittsburgh pittsburgh campus,pittsburgh,2005,2005
+0.081081081,Possible Bad Match,Good Match,university of south carolina,university of south carolina columbia,columbia,2005,2005
+0.117647059,Possible Bad Match,Good Match,university of virginia,university of virginia main campus,charlottesville,1994,1994
+0.117647059,Possible Bad Match,Good Match,university of virginia,university of virginia main campus,charlottesville,2000,2000
+0.117647059,Possible Bad Match,Good Match,university of virginia,university of virginia main campus,charlottesville,2005,2005
+0.128205128,Possible Bad Match,Good Match,university of washington,university of washington seattle campus,seattle,1973,1973
+0.128205128,Possible Bad Match,Good Match,university of washington,university of washington seattle campus,seattle,1976,1976
+0.128205128,Possible Bad Match,Good Match,university of washington,university of washington seattle campus,seattle,1987,1987
+0.128205128,Possible Bad Match,Good Match,university of washington,university of washington seattle campus,seattle,1994,1994
+0.128205128,Possible Bad Match,Good Match,university of washington,university of washington seattle campus,seattle,2005,2005
+0.09375,Possible Bad Match,Good Match,virginia commonwealth u,virginia commonwealth university,richmond,1994,1994
+0.09375,Possible Bad Match,Good Match,virginia commonwealth u,virginia commonwealth university,richmond,2000,2000
+0.111111111,Possible Bad Match,Good Match,washington state u,washington state university,pullman,2000,2000
+0.111111111,Possible Bad Match,Good Match,washington state u,washington state university,pullman,2005,2005
+0.121212121,Possible Bad Match,Good Match,washington university,washington university in st louis,saint louis,1976,1976
+0.121212121,Possible Bad Match,Good Match,washington university,washington university in st louis,saint louis,1987,1987
+0.121212121,Possible Bad Match,Good Match,washington university,washington university in st louis,saint louis,1994,1994
+0.121212121,Possible Bad Match,Good Match,washington university,washington university in st louis,saint louis,2000,2000
+0.111111111,Possible Bad Match,Good Match,western michigan u,western michigan university,kalamazoo,2000,2000
+0.126767677,Possible Bad Match,Remove,university of central arkansas,university of arkansas,fayetteville,2000,2000
+0.120918616,Possible Bad Match,Remove,clarkson university,cornell university,ithaca,1994,1994
+0.120918616,Possible Bad Match,Remove,clarkson university,cornell university,ithaca,2000,2000
+0.120918616,Possible Bad Match,Remove,clarkson university,cornell university,ithaca,2005,2005
+0.141290727,Possible Bad Match,Remove,colorado state university pueblo,colorado state university fort collins,fort collins,2005,2005
+0.141456583,Possible Bad Match,Remove,drexel university,temple university,philadelphia,1994,1994
+0.141456583,Possible Bad Match,Remove,drexel university,temple university,philadelphia,2000,2000
+0.141975309,Possible Bad Match,Remove,eastern michigan u,western michigan university,kalamazoo,2000,2000
+0.105324074,Possible Bad Match,Remove,hofstra university,fordham university,bronx,2000,2000
+0.090909091,Possible Bad Match,Remove,montana state university billings,montana state university,bozeman,2005,2005
+0.131996658,Possible Bad Match,Remove,new school university,new york university,new york,1994,1994
+0.131996658,Possible Bad Match,Remove,new school university,new york university,new york,2000,2000
+0.131996658,Possible Bad Match,Remove,new school university,new york university,new york,2005,2005
+0.116655567,Possible Bad Match,Remove,southern illinois university at edwardsville,southern illinois university carbondale,carbondale,2000,2000
+0.132070707,Possible Bad Match,Remove,texas a and m university commerce,texas a and m university college station,college station,2005,2005
+0.131696429,Possible Bad Match,Remove,texas a and m university kingsville,texas a and m university college station,college station,1994,1994
+0.131696429,Possible Bad Match,Remove,texas a and m university kingsville,texas a and m university college station,college station,2000,2000
+0.131696429,Possible Bad Match,Remove,texas a and m university kingsville,texas a and m university college station,college station,2005,2005
+0.144444444,Possible Bad Match,Remove,tulane university,tulane university of louisiana,new orleans,2000,2000
+0.144444444,Possible Bad Match,Remove,tulane university,tulane university of louisiana,new orleans,2005,2005
+0.136507937,Possible Bad Match,Remove,univ of west florida,university of florida,gainesville,1994,1994
+0.136507937,Possible Bad Match,Remove,univ of west florida,university of florida,gainesville,2000,2000
+0.136507937,Possible Bad Match,Remove,univ of west florida,university of florida,gainesville,2005,2005
+0.135135135,Possible Bad Match,Remove,university of arkansas at little rock,university of arkansas,fayetteville,2000,2000
+0.136363636,Possible Bad Match,Remove,university of california berkeley,university of california davis,davis,1973,1973
+0.136483886,Possible Bad Match,Remove,university of california berkeley,university of california los angeles,los angeles,1973,1973
+0.149138443,Possible Bad Match,Remove,university of california berkeley,university of california san diego,la jolla,1973,1973
+0.136363636,Possible Bad Match,Remove,university of california berkeley,university of california davis,davis,1976,1976
+0.136483886,Possible Bad Match,Remove,university of california berkeley,university of california los angeles,los angeles,1976,1976
+0.149138443,Possible Bad Match,Remove,university of california berkeley,university of california san diego,la jolla,1976,1976
+0.136363636,Possible Bad Match,Remove,university of california berkeley,university of california davis,davis,2005,2005
+0.115962492,Possible Bad Match,Remove,university of california berkeley,university of california irvine,irvine,2005,2005
+0.136483886,Possible Bad Match,Remove,university of california berkeley,university of california los angeles,los angeles,2005,2005
+0.121233342,Possible Bad Match,Remove,university of california berkeley,university of california riverside,riverside,2005,2005
+0.149138443,Possible Bad Match,Remove,university of california berkeley,university of california san diego,la jolla,2005,2005
+0.136363636,Possible Bad Match,Remove,university of california davis,university of california berkeley,berkeley,1973,1973
+0.129012346,Possible Bad Match,Remove,university of california davis,university of california los angeles,los angeles,1973,1973
+0.077372098,Possible Bad Match,Remove,university of california davis,university of california san diego,la jolla,1973,1973
+0.136363636,Possible Bad Match,Remove,university of california davis,university of california berkeley,berkeley,1976,1976
+0.129012346,Possible Bad Match,Remove,university of california davis,university of california los angeles,los angeles,1976,1976
+0.077372098,Possible Bad Match,Remove,university of california davis,university of california san diego,la jolla,1976,1976
+0.136363636,Possible Bad Match,Remove,university of california davis,university of california berkeley,berkeley,2005,2005
+0.088689765,Possible Bad Match,Remove,university of california davis,university of california irvine,irvine,2005,2005
+0.129012346,Possible Bad Match,Remove,university of california davis,university of california los angeles,los angeles,2005,2005
+0.077372098,Possible Bad Match,Remove,university of california davis,university of california riverside,riverside,2005,2005
+0.077372098,Possible Bad Match,Remove,university of california davis,university of california san diego,la jolla,2005,2005
+0.14217024,Possible Bad Match,Remove,university of california davis,university of california santa barbara,santa barbara,2005,2005
+0.121869489,Possible Bad Match,Remove,university of california davis,university of california santa cruz,santa cruz,2005,2005
+0.115962492,Possible Bad Match,Remove,university of california irvine,university of california berkeley,berkeley,2005,2005
+0.088689765,Possible Bad Match,Remove,university of california irvine,university of california davis,davis,2005,2005
+0.126344086,Possible Bad Match,Remove,university of california irvine,university of california los angeles,los angeles,2005,2005
+0.072190597,Possible Bad Match,Remove,university of california irvine,university of california riverside,riverside,2005,2005
+0.102986356,Possible Bad Match,Remove,university of california irvine,university of california san diego,la jolla,2005,2005
+0.131546908,Possible Bad Match,Remove,university of california irvine,university of california santa cruz,santa cruz,2005,2005
+0.136483886,Possible Bad Match,Remove,university of california los angeles,university of california berkeley,berkeley,1973,1973
+0.129012346,Possible Bad Match,Remove,university of california los angeles,university of california davis,davis,1973,1973
+0.08789488,Possible Bad Match,Remove,university of california los angeles,university of california san diego,la jolla,1973,1973
+0.136483886,Possible Bad Match,Remove,university of california los angeles,university of california berkeley,berkeley,1976,1976
+0.129012346,Possible Bad Match,Remove,university of california los angeles,university of california davis,davis,1976,1976
+0.08789488,Possible Bad Match,Remove,university of california los angeles,university of california san diego,la jolla,1976,1976
+0.136483886,Possible Bad Match,Remove,university of california los angeles,university of california berkeley,berkeley,2005,2005
+0.129012346,Possible Bad Match,Remove,university of california los angeles,university of california davis,davis,2005,2005
+0.126344086,Possible Bad Match,Remove,university of california los angeles,university of california irvine,irvine,2005,2005
+0.144802365,Possible Bad Match,Remove,university of california los angeles,university of california riverside,riverside,2005,2005
+0.08789488,Possible Bad Match,Remove,university of california los angeles,university of california san diego,la jolla,2005,2005
+0.139199051,Possible Bad Match,Remove,university of california los angeles,university of california santa cruz,santa cruz,2005,2005
+0.082763115,Possible Bad Match,Remove,university of california merced,university of california berkeley,berkeley,2005,2005
+0.098207885,Possible Bad Match,Remove,university of california merced,university of california davis,davis,2005,2005
+0.098367184,Possible Bad Match,Remove,university of california merced,university of california irvine,irvine,2005,2005
+0.126344086,Possible Bad Match,Remove,university of california merced,university of california los angeles,los angeles,2005,2005
+0.09351349,Possible Bad Match,Remove,university of california merced,university of california riverside,riverside,2005,2005
+0.123983883,Possible Bad Match,Remove,university of california merced,university of california san diego,la jolla,2005,2005
+0.131546908,Possible Bad Match,Remove,university of california merced,university of california santa cruz,santa cruz,2005,2005
+0.121233342,Possible Bad Match,Remove,university of california riverside,university of california berkeley,berkeley,2005,2005
+0.077372098,Possible Bad Match,Remove,university of california riverside,university of california davis,davis,2005,2005
+0.072190597,Possible Bad Match,Remove,university of california riverside,university of california irvine,irvine,2005,2005
+0.144802365,Possible Bad Match,Remove,university of california riverside,university of california los angeles,los angeles,2005,2005
+0.121027721,Possible Bad Match,Remove,university of california riverside,university of california san diego,la jolla,2005,2005
+0.149138443,Possible Bad Match,Remove,university of california san diego,university of california berkeley,berkeley,1973,1973
+0.077372098,Possible Bad Match,Remove,university of california san diego,university of california davis,davis,1973,1973
+0.08789488,Possible Bad Match,Remove,university of california san diego,university of california los angeles,los angeles,1973,1973
+0.149138443,Possible Bad Match,Remove,university of california san diego,university of california berkeley,berkeley,1976,1976
+0.077372098,Possible Bad Match,Remove,university of california san diego,university of california davis,davis,1976,1976
+0.08789488,Possible Bad Match,Remove,university of california san diego,university of california los angeles,los angeles,1976,1976
+0.149138443,Possible Bad Match,Remove,university of california san diego,university of california berkeley,berkeley,2005,2005
+0.077372098,Possible Bad Match,Remove,university of california san diego,university of california davis,davis,2005,2005
+0.102986356,Possible Bad Match,Remove,university of california san diego,university of california irvine,irvine,2005,2005
+0.08789488,Possible Bad Match,Remove,university of california san diego,university of california los angeles,los angeles,2005,2005
+0.121027721,Possible Bad Match,Remove,university of california san diego,university of california riverside,riverside,2005,2005
+0.127966976,Possible Bad Match,Remove,university of california san diego,university of california santa barbara,santa barbara,2005,2005
+0.106162465,Possible Bad Match,Remove,university of california san diego,university of california santa cruz,santa cruz,2005,2005
+0.127798663,Possible Bad Match,Remove,university of california san francisco,university of california davis,davis,1973,1973
+0.13995787,Possible Bad Match,Remove,university of california san francisco,university of california los angeles,los angeles,1973,1973
+0.090815273,Possible Bad Match,Remove,university of california san francisco,university of california san diego,la jolla,1973,1973
+0.127798663,Possible Bad Match,Remove,university of california san francisco,university of california davis,davis,1976,1976
+0.13995787,Possible Bad Match,Remove,university of california san francisco,university of california los angeles,los angeles,1976,1976
+0.090815273,Possible Bad Match,Remove,university of california san francisco,university of california san diego,la jolla,1976,1976
+0.127798663,Possible Bad Match,Remove,university of california san francisco,university of california davis,davis,2005,2005
+0.131882125,Possible Bad Match,Remove,university of california san francisco,university of california irvine,irvine,2005,2005
+0.13995787,Possible Bad Match,Remove,university of california san francisco,university of california los angeles,los angeles,2005,2005
+0.090815273,Possible Bad Match,Remove,university of california san francisco,university of california san diego,la jolla,2005,2005
+0.13893605,Possible Bad Match,Remove,university of california san francisco,university of california santa barbara,santa barbara,2005,2005
+0.102036341,Possible Bad Match,Remove,university of california san francisco,university of california santa cruz,santa cruz,2005,2005
+0.14217024,Possible Bad Match,Remove,university of california santa barbara,university of california davis,davis,2005,2005
+0.127966976,Possible Bad Match,Remove,university of california santa barbara,university of california san diego,la jolla,2005,2005
+0.081203008,Possible Bad Match,Remove,university of california santa barbara,university of california santa cruz,santa cruz,2005,2005
+0.121869489,Possible Bad Match,Remove,university of california santa cruz,university of california davis,davis,2005,2005
+0.131546908,Possible Bad Match,Remove,university of california santa cruz,university of california irvine,irvine,2005,2005
+0.139199051,Possible Bad Match,Remove,university of california santa cruz,university of california los angeles,los angeles,2005,2005
+0.106162465,Possible Bad Match,Remove,university of california santa cruz,university of california san diego,la jolla,2005,2005
+0.081203008,Possible Bad Match,Remove,university of california santa cruz,university of california santa barbara,santa barbara,2005,2005
+0.147509579,Possible Bad Match,Remove,university of central florida,university of florida,gainesville,2005,2005
+0.106944444,Possible Bad Match,Remove,university of colorado at denver,university of colorado boulder,boulder,1994,1994
+0.106944444,Possible Bad Match,Remove,university of colorado at denver,university of colorado boulder,boulder,2000,2000
+0.106944444,Possible Bad Match,Remove,university of colorado at denver,university of colorado boulder,boulder,2005,2005
+0.129411765,Possible Bad Match,Remove,university of dayton,university of toledo,toledo,2000,2000
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,1973,1973
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,1976,1976
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,1987,1987
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,1994,1994
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,2000,2000
+0.097883598,Possible Bad Match,Remove,university of florida,university of south florida,tampa,2000,2000
+0.131996658,Possible Bad Match,Remove,university of florida,university of miami,coral gables,2005,2005
+0.097883598,Possible Bad Match,Remove,university of florida,university of south florida,tampa,2005,2005
+0.12045977,Possible Bad Match,Remove,university of hawaii hilo,university of hawaii at manoa,honolulu,2005,2005
+0.146833751,Possible Bad Match,Remove,university of houston,university of north texas,denton,2000,2000
+0.114583333,Possible Bad Match,Remove,university of houston clear lake,university of houston,houston,2000,2000
+0.149402174,Possible Bad Match,Remove,university of houston clear lake,university of north texas,denton,2000,2000
+0.06547619,Possible Bad Match,Remove,university of il chicago,university of chicago,chicago,1994,1994
+0.135003885,Possible Bad Match,Remove,university of illinois at chicago,university of illinois urbana champaign,champaign,1994,1994
+0.135003885,Possible Bad Match,Remove,university of illinois at chicago,university of illinois urbana champaign,champaign,2000,2000
+0.135003885,Possible Bad Match,Remove,university of illinois at chicago,university of illinois urbana champaign,champaign,2005,2005
+0.132142857,Possible Bad Match,Remove,university of maryland baltimore,university of maryland college park,college park,2005,2005
+0.086834734,Possible Bad Match,Remove,university of massachusetts boston,university of massachusetts amherst,amherst,2005,2005
+0.075285675,Possible Bad Match,Remove,university of massachusetts dartmouth,university of massachusetts amherst,amherst,2005,2005
+0.106162465,Possible Bad Match,Remove,university of massachusetts lowell,university of massachusetts amherst,amherst,2005,2005
+0.08403314,Possible Bad Match,Remove,university of massachusetts worcester,university of massachusetts amherst,amherst,2005,2005
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,1973,1973
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,1976,1976
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,1987,1987
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,1994,1994
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,2000,2000
+0.131996658,Possible Bad Match,Remove,university of miami,university of florida,gainesville,2005,2005
+0.121568627,Possible Bad Match,Remove,university of mississippi,university of southern mississippi,hattiesburg,2000,2000
+0.077572965,Possible Bad Match,Remove,university of missouri rolla,university of missouri columbia,columbia,2005,2005
+0.098367184,Possible Bad Match,Remove,university of missouri st louis,university of missouri columbia,columbia,2005,2005
+0.141935484,Possible Bad Match,Remove,university of nebraska at omaha,university of nebraska lincoln,lincoln,1994,1994
+0.141935484,Possible Bad Match,Remove,university of nebraska at omaha,university of nebraska lincoln,lincoln,2000,2000
+0.141935484,Possible Bad Match,Remove,university of nebraska at omaha,university of nebraska lincoln,lincoln,2005,2005
+0.148114781,Possible Bad Match,Remove,university of nebraska medical center,university of nebraska lincoln,lincoln,2005,2005
+0.114285714,Possible Bad Match,Remove,university of nebraska omaha,university of nebraska lincoln,lincoln,1994,1994
+0.097855103,Possible Bad Match,Remove,university of north carolina asheville,university of north carolina at chapel hill,chapel hill,2005,2005
+0.088040962,Possible Bad Match,Remove,university of north carolina at charlotte,university of north carolina at chapel hill,chapel hill,1994,1994
+0.088040962,Possible Bad Match,Remove,university of north carolina at charlotte,university of north carolina at chapel hill,chapel hill,2000,2000
+0.088040962,Possible Bad Match,Remove,university of north carolina at charlotte,university of north carolina at chapel hill,chapel hill,2005,2005
+0.143063427,Possible Bad Match,Remove,university of north carolina at wilmington,university of north carolina at chapel hill,chapel hill,1994,1994
+0.143063427,Possible Bad Match,Remove,university of north carolina at wilmington,university of north carolina at chapel hill,chapel hill,2000,2000
+0.143063427,Possible Bad Match,Remove,university of north carolina at wilmington,university of north carolina at chapel hill,chapel hill,2005,2005
+0.116902722,Possible Bad Match,Remove,university of north carolina charlotte,university of north carolina at chapel hill,chapel hill,2005,2005
+0.14707731,Possible Bad Match,Remove,university of north carolina pembroke,university of north carolina at chapel hill,chapel hill,2005,2005
+0.105820106,Possible Bad Match,Remove,university of north florida,university of florida,gainesville,2000,2000
+0.096049383,Possible Bad Match,Remove,university of north florida,university of south florida,tampa,2000,2000
+0.105820106,Possible Bad Match,Remove,university of north florida,university of florida,gainesville,2005,2005
+0.096049383,Possible Bad Match,Remove,university of north florida,university of south florida,tampa,2005,2005
+0.146833751,Possible Bad Match,Remove,university of north texas,university of houston,houston,2000,2000
+0.12962963,Possible Bad Match,Remove,university of northern iowa,university of iowa,iowa city,2005,2005
+0.12962963,Possible Bad Match,Remove,university of oklahoma,university of oklahoma norman campus,norman,2000,2000
+0.125757576,Possible Bad Match,Remove,university of portland,university of oregon,eugene,2000,2000
+0.097883598,Possible Bad Match,Remove,university of south florida,university of florida,gainesville,2005,2005
+0.142169521,Possible Bad Match,Remove,university of the pacific,university of southern california,los angeles,1994,1994
+0.142169521,Possible Bad Match,Remove,university of the pacific,university of southern california,los angeles,2000,2000
+0.142169521,Possible Bad Match,Remove,university of the pacific,university of southern california,los angeles,2005,2005
+0.064102564,Possible Bad Match,Remove,university of west florida,university of florida,gainesville,2005,2005
+0.097400285,Possible Bad Match,Remove,university of west florida,university of south florida,tampa,2005,2005
+0.07997558,Possible Bad Match,Remove,university of west georgia,university of georgia,athens,2005,2005
+0.132194813,Possible Bad Match,Remove,university of wisconsin eau claire,university of wisconsin madison,madison,2005,2005
+0.137291024,Possible Bad Match,Remove,university of wisconsin green bay,university of wisconsin madison,madison,2005,2005
+0.115962492,Possible Bad Match,Remove,university of wisconsin la crosse,university of wisconsin madison,madison,2005,2005
+0.115962492,Possible Bad Match,Remove,university of wisconsin milwaukee,university of wisconsin madison,madison,2005,2005
+0.120347395,Possible Bad Match,Remove,university of wisconsin oshkosh,university of wisconsin madison,madison,2005,2005
+0.085829493,Possible Bad Match,Remove,university of wisconsin parkside,university of wisconsin madison,madison,2005,2005
+0.139477727,Possible Bad Match,Remove,university of wisconsin platteville,university of wisconsin madison,madison,1994,1994
+0.139477727,Possible Bad Match,Remove,university of wisconsin platteville,university of wisconsin madison,madison,2000,2000
+0.120535403,Possible Bad Match,Remove,university of wisconsin platteville,university of wisconsin milwaukee,milwaukee,2000,2000
+0.139477727,Possible Bad Match,Remove,university of wisconsin platteville,university of wisconsin madison,madison,2005,2005
+0.131546908,Possible Bad Match,Remove,university of wisconsin river falls,university of wisconsin madison,madison,2005,2005
+0.131196288,Possible Bad Match,Remove,university of wisconsin stevens point,university of wisconsin madison,madison,2005,2005
+0.088246199,Possible Bad Match,Remove,university of wisconsin stout,university of wisconsin madison,madison,2005,2005
+0.107439765,Possible Bad Match,Remove,university of wisconsin superior,university of wisconsin madison,madison,2005,2005
+0.145015326,Possible Bad Match,Remove,university of wisconsin whitewater,university of wisconsin madison,madison,2005,2005
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,1973,1973
+0,Good Match,Good Match,california institute of technology,california institute of technology,pasadena,1973,1973
+0,Good Match,Good Match,stanford university,stanford university,stanford,1973,1973
+0,Good Match,Good Match,university of california berkeley,university of california berkeley,berkeley,1973,1973
+0,Good Match,Good Match,university of california davis,university of california davis,davis,1973,1973
+0,Good Match,Good Match,university of california los angeles,university of california los angeles,los angeles,1973,1973
+0,Good Match,Good Match,university of california san diego,university of california san diego,la jolla,1973,1973
+0,Good Match,Good Match,university of southern california,university of southern california,los angeles,1973,1973
+0,Good Match,Good Match,yale university,yale university,new haven,1973,1973
+0,Good Match,Good Match,university of miami,university of miami,coral gables,1973,1973
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,1973,1973
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,1973,1973
+0,Good Match,Good Match,university of iowa,university of iowa,iowa city,1973,1973
+0,Good Match,Good Match,harvard university,harvard university,cambridge,1973,1973
+0,Good Match,Good Match,massachusetts institute of technology,massachusetts institute of technology,cambridge,1973,1973
+0,Good Match,Good Match,michigan state university,michigan state university,east lansing,1973,1973
+0,Good Match,Good Match,washington university in st louis,washington university in st louis,saint louis,1973,1973
+0,Good Match,Good Match,princeton university,princeton university,princeton,1973,1973
+0,Good Match,Good Match,columbia university in the city of new york,columbia university in the city of new york,new york,1973,1973
+0,Good Match,Good Match,new york university,new york university,new york,1973,1973
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,1973,1973
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,1973,1973
+0,Good Match,Good Match,duke university,duke university,durham,1973,1973
+0,Good Match,Good Match,case western reserve university,case western reserve university,cleveland,1973,1973
+0,Good Match,Good Match,university of pennsylvania,university of pennsylvania,philadelphia,1973,1973
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,1973,1973
+0,Good Match,Good Match,university of wisconsin madison,university of wisconsin madison,madison,1973,1973
+0,Good Match,Good Match,cornell university,cornell university,ithaca,1973,1973
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,1973,1973
+0,Good Match,Good Match,university of florida,university of florida,gainesville,1973,1973
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,1976,1976
+0,Good Match,Good Match,california institute of technology,california institute of technology,pasadena,1976,1976
+0,Good Match,Good Match,stanford university,stanford university,stanford,1976,1976
+0,Good Match,Good Match,university of california berkeley,university of california berkeley,berkeley,1976,1976
+0,Good Match,Good Match,university of california davis,university of california davis,davis,1976,1976
+0,Good Match,Good Match,university of california los angeles,university of california los angeles,los angeles,1976,1976
+0,Good Match,Good Match,university of california san diego,university of california san diego,la jolla,1976,1976
+0,Good Match,Good Match,university of southern california,university of southern california,los angeles,1976,1976
+0,Good Match,Good Match,yale university,yale university,new haven,1976,1976
+0,Good Match,Good Match,university of florida,university of florida,gainesville,1976,1976
+0,Good Match,Good Match,university of miami,university of miami,coral gables,1976,1976
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,1976,1976
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,1976,1976
+0,Good Match,Good Match,university of iowa,university of iowa,iowa city,1976,1976
+0,Good Match,Good Match,harvard university,harvard university,cambridge,1976,1976
+0,Good Match,Good Match,massachusetts institute of technology,massachusetts institute of technology,cambridge,1976,1976
+0,Good Match,Good Match,michigan state university,michigan state university,east lansing,1976,1976
+0,Good Match,Good Match,washington university in st louis,washington university in st louis,saint louis,1976,1976
+0,Good Match,Good Match,princeton university,princeton university,princeton,1976,1976
+0,Good Match,Good Match,columbia university in the city of new york,columbia university in the city of new york,new york,1976,1976
+0,Good Match,Good Match,new york university,new york university,new york,1976,1976
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,1976,1976
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,1976,1976
+0,Good Match,Good Match,duke university,duke university,durham,1976,1976
+0,Good Match,Good Match,case western reserve university,case western reserve university,cleveland,1976,1976
+0,Good Match,Good Match,university of pennsylvania,university of pennsylvania,philadelphia,1976,1976
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,1976,1976
+0,Good Match,Good Match,university of wisconsin madison,university of wisconsin madison,madison,1976,1976
+0,Good Match,Good Match,cornell university,cornell university,ithaca,1976,1976
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,1976,1976
+0,Good Match,Good Match,boston university,boston university,boston,1976,1976
+0,Good Match,Good Match,university of maryland college park,university of maryland college park,college park,1976,1976
+0,Good Match,Good Match,oregon state university,oregon state university,corvallis,1976,1976
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,1987,1987
+0,Good Match,Good Match,stanford university,stanford university,stanford,1987,1987
+0,Good Match,Good Match,yale university,yale university,new haven,1987,1987
+0,Good Match,Good Match,university of florida,university of florida,gainesville,1987,1987
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,1987,1987
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,1987,1987
+0,Good Match,Good Match,university of iowa,university of iowa,iowa city,1987,1987
+0,Good Match,Good Match,boston university,boston university,boston,1987,1987
+0,Good Match,Good Match,harvard university,harvard university,cambridge,1987,1987
+0,Good Match,Good Match,new york university,new york university,new york,1987,1987
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,1987,1987
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,1987,1987
+0,Good Match,Good Match,duke university,duke university,durham,1987,1987
+0,Good Match,Good Match,oregon state university,oregon state university,corvallis,1987,1987
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,1987,1987
+0,Good Match,Good Match,cornell university,cornell university,ithaca,1987,1987
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,1987,1987
+0,Good Match,Good Match,suny at stony brook,suny at stony brook,stony brook,1987,1987
+0,Good Match,Good Match,university of miami,university of miami,coral gables,1987,1987
+0,Good Match,Good Match,vanderbilt university,vanderbilt university,nashville,1987,1987
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,1994,1994
+0,Good Match,Good Match,stanford university,stanford university,stanford,1994,1994
+0,Good Match,Good Match,yale university,yale university,new haven,1994,1994
+0,Good Match,Good Match,university of miami,university of miami,coral gables,1994,1994
+0,Good Match,Good Match,emory university,emory university,atlanta,1994,1994
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,1994,1994
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,1994,1994
+0,Good Match,Good Match,harvard university,harvard university,cambridge,1994,1994
+0,Good Match,Good Match,new york university,new york university,new york,1994,1994
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,1994,1994
+0,Good Match,Good Match,duke university,duke university,durham,1994,1994
+0,Good Match,Good Match,vanderbilt university,vanderbilt university,nashville,1994,1994
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,1994,1994
+0,Good Match,Good Match,cornell university,cornell university,ithaca,1994,1994
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,1994,1994
+0,Good Match,Good Match,arizona state university,arizona state university,tempe,1994,1994
+0,Good Match,Good Match,georgetown university,georgetown university,washington,1994,1994
+0,Good Match,Good Match,howard university,howard university,washington,1994,1994
+0,Good Match,Good Match,florida state university,florida state university,tallahassee,1994,1994
+0,Good Match,Good Match,university of florida,university of florida,gainesville,1994,1994
+0,Good Match,Good Match,university of georgia,university of georgia,athens,1994,1994
+0,Good Match,Good Match,iowa state university,iowa state university,ames,1994,1994
+0,Good Match,Good Match,boston university,boston university,boston,1994,1994
+0,Good Match,Good Match,tufts university,tufts university,medford,1994,1994
+0,Good Match,Good Match,michigan state university,michigan state university,east lansing,1994,1994
+0,Good Match,Good Match,wayne state university,wayne state university,detroit,1994,1994
+0,Good Match,Good Match,princeton university,princeton university,princeton,1994,1994
+0,Good Match,Good Match,university of new mexico,university of new mexico,albuquerque,1994,1994
+0,Good Match,Good Match,rockefeller university,rockefeller university,new york,1994,1994
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,1994,1994
+0,Good Match,Good Match,oregon state university,oregon state university,corvallis,1994,1994
+0,Good Match,Good Match,temple university,temple university,philadelphia,1994,1994
+0,Good Match,Good Match,brown university,brown university,providence,1994,1994
+0,Good Match,Good Match,utah state university,utah state university,logan,1994,1994
+0,Good Match,Good Match,west virginia university,west virginia university,morgantown,1994,1994
+0,Good Match,Good Match,university of connecticut,university of connecticut,storrs,1994,1994
+0,Good Match,Good Match,university of kentucky,university of kentucky,lexington,1994,1994
+0,Good Match,Good Match,university of cincinnati,university of cincinnati,cincinnati,1994,1994
+0,Good Match,Good Match,university of kansas,university of kansas,lawrence,1994,1994
+0.03030303,Good Match,Good Match,university of colorado at boulder,university of colorado boulder,boulder,1994,1994
+0,Good Match,Good Match,columbia university in the city of new york,columbia university in the city of new york,new york,1994,1994
+0,Good Match,Good Match,suny at buffalo,suny at buffalo,buffalo,1994,1994
+0,Good Match,Good Match,suny at stony brook,suny at stony brook,stony brook,1994,1994
+0,Good Match,Good Match,arizona state university,arizona state university,tempe,2000,2000
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,2000,2000
+0,Good Match,Good Match,stanford university,stanford university,stanford,2000,2000
+0.03030303,Good Match,Good Match,university of colorado at boulder,university of colorado boulder,boulder,2000,2000
+0,Good Match,Good Match,university of denver,university of denver,denver,2000,2000
+0,Good Match,Good Match,yale university,yale university,new haven,2000,2000
+0,Good Match,Good Match,university of delaware,university of delaware,newark,2000,2000
+0,Good Match,Good Match,american university,american university,washington,2000,2000
+0,Good Match,Good Match,georgetown university,georgetown university,washington,2000,2000
+0,Good Match,Good Match,howard university,howard university,washington,2000,2000
+0,Good Match,Good Match,florida state university,florida state university,tallahassee,2000,2000
+0,Good Match,Good Match,university of florida,university of florida,gainesville,2000,2000
+0,Good Match,Good Match,university of miami,university of miami,coral gables,2000,2000
+0,Good Match,Good Match,emory university,emory university,atlanta,2000,2000
+0,Good Match,Good Match,georgia state university,georgia state university,atlanta,2000,2000
+0,Good Match,Good Match,university of georgia,university of georgia,athens,2000,2000
+0,Good Match,Good Match,university of idaho,university of idaho,moscow,2000,2000
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,2000,2000
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,2000,2000
+0,Good Match,Good Match,university of notre dame,university of notre dame,notre dame,2000,2000
+0,Good Match,Good Match,iowa state university,iowa state university,ames,2000,2000
+0,Good Match,Good Match,kansas state university,kansas state university,manhattan,2000,2000
+0,Good Match,Good Match,university of louisville,university of louisville,louisville,2000,2000
+0,Good Match,Good Match,boston college,boston college,chestnut hill,2000,2000
+0,Good Match,Good Match,boston university,boston university,boston,2000,2000
+0,Good Match,Good Match,brandeis university,brandeis university,waltham,2000,2000
+0,Good Match,Good Match,harvard university,harvard university,cambridge,2000,2000
+0,Good Match,Good Match,northeastern university,northeastern university,boston,2000,2000
+0,Good Match,Good Match,tufts university,tufts university,medford,2000,2000
+0,Good Match,Good Match,michigan state university,michigan state university,east lansing,2000,2000
+0,Good Match,Good Match,wayne state university,wayne state university,detroit,2000,2000
+0,Good Match,Good Match,princeton university,princeton university,princeton,2000,2000
+0,Good Match,Good Match,university of new mexico,university of new mexico,albuquerque,2000,2000
+0,Good Match,Good Match,columbia university in the city of new york,columbia university in the city of new york,new york,2000,2000
+0,Good Match,Good Match,fordham university,fordham university,bronx,2000,2000
+0,Good Match,Good Match,new york university,new york university,new york,2000,2000
+0,Good Match,Good Match,suny at albany,suny at albany,albany,2000,2000
+0,Good Match,Good Match,suny at binghamton,suny at binghamton,vestal,2000,2000
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,2000,2000
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,2000,2000
+0,Good Match,Good Match,duke university,duke university,durham,2000,2000
+0,Good Match,Good Match,university of toledo,university of toledo,toledo,2000,2000
+0,Good Match,Good Match,oregon state university,oregon state university,corvallis,2000,2000
+0,Good Match,Good Match,university of oregon,university of oregon,eugene,2000,2000
+0,Good Match,Good Match,lehigh university,lehigh university,bethlehem,2000,2000
+0,Good Match,Good Match,temple university,temple university,philadelphia,2000,2000
+0,Good Match,Good Match,brown university,brown university,providence,2000,2000
+0,Good Match,Good Match,clemson university,clemson university,clemson,2000,2000
+0,Good Match,Good Match,university of memphis,university of memphis,memphis,2000,2000
+0,Good Match,Good Match,vanderbilt university,vanderbilt university,nashville,2000,2000
+0,Good Match,Good Match,university of north texas,university of north texas,denton,2000,2000
+0,Good Match,Good Match,rice university,rice university,houston,2000,2000
+0,Good Match,Good Match,texas tech university,texas tech university,lubbock,2000,2000
+0,Good Match,Good Match,university of houston,university of houston,houston,2000,2000
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,2000,2000
+0,Good Match,Good Match,utah state university,utah state university,logan,2000,2000
+0,Good Match,Good Match,university of vermont,university of vermont,burlington,2000,2000
+0,Good Match,Good Match,old dominion university,old dominion university,norfolk,2000,2000
+0,Good Match,Good Match,west virginia university,west virginia university,morgantown,2000,2000
+0,Good Match,Good Match,marquette university,marquette university,milwaukee,2000,2000
+0,Good Match,Good Match,university of wyoming,university of wyoming,laramie,2000,2000
+0,Good Match,Good Match,auburn university,auburn university,auburn,2000,2000
+0,Good Match,Good Match,university of connecticut,university of connecticut,storrs,2000,2000
+0,Good Match,Good Match,university of kentucky,university of kentucky,lexington,2000,2000
+0,Good Match,Good Match,cornell university,cornell university,ithaca,2000,2000
+0,Good Match,Good Match,syracuse university,syracuse university,syracuse,2000,2000
+0,Good Match,Good Match,university of cincinnati,university of cincinnati,cincinnati,2000,2000
+0,Good Match,Good Match,suny at buffalo,suny at buffalo,buffalo,2000,2000
+0,Good Match,Good Match,suny at stony brook,suny at stony brook,stony brook,2000,2000
+0,Good Match,Good Match,brigham young university,brigham young university,provo,2000,2000
+0,Good Match,Good Match,university of kansas,university of kansas,lawrence,2000,2000
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,2000,2000
+0,Good Match,Good Match,university of mississippi,university of mississippi,university,2000,2000
+0,Good Match,Good Match,claremont graduate university,claremont graduate university,claremont,2000,2000
+0,Good Match,Good Match,washington university in st louis,washington university in st louis,saint louis,2000,2000
+0,Good Match,Good Match,arizona state university,arizona state university,tempe,2005,2005
+0,Good Match,Good Match,university of arizona,university of arizona,tucson,2005,2005
+0,Good Match,Good Match,stanford university,stanford university,stanford,2005,2005
+0.03030303,Good Match,Good Match,university of colorado at boulder,university of colorado boulder,boulder,2005,2005
+0,Good Match,Good Match,yale university,yale university,new haven,2005,2005
+0,Good Match,Good Match,university of delaware,university of delaware,newark,2005,2005
+0,Good Match,Good Match,georgetown university,georgetown university,washington,2005,2005
+0,Good Match,Good Match,florida state university,florida state university,tallahassee,2005,2005
+0,Good Match,Good Match,university of florida,university of florida,gainesville,2005,2005
+0,Good Match,Good Match,university of miami,university of miami,coral gables,2005,2005
+0,Good Match,Good Match,emory university,emory university,atlanta,2005,2005
+0,Good Match,Good Match,university of georgia,university of georgia,athens,2005,2005
+0,Good Match,Good Match,northwestern university,northwestern university,evanston,2005,2005
+0,Good Match,Good Match,university of chicago,university of chicago,chicago,2005,2005
+0,Good Match,Good Match,university of notre dame,university of notre dame,notre dame,2005,2005
+0,Good Match,Good Match,iowa state university,iowa state university,ames,2005,2005
+0,Good Match,Good Match,kansas state university,kansas state university,manhattan,2005,2005
+0,Good Match,Good Match,boston university,boston university,boston,2005,2005
+0,Good Match,Good Match,brandeis university,brandeis university,waltham,2005,2005
+0,Good Match,Good Match,harvard university,harvard university,cambridge,2005,2005
+0,Good Match,Good Match,tufts university,tufts university,medford,2005,2005
+0,Good Match,Good Match,michigan state university,michigan state university,east lansing,2005,2005
+0,Good Match,Good Match,wayne state university,wayne state university,detroit,2005,2005
+0,Good Match,Good Match,washington university in st louis,washington university in st louis,saint louis,2005,2005
+0,Good Match,Good Match,dartmouth college,dartmouth college,hanover,2005,2005
+0,Good Match,Good Match,princeton university,princeton university,princeton,2005,2005
+0,Good Match,Good Match,university of new mexico,university of new mexico,albuquerque,2005,2005
+0,Good Match,Good Match,columbia university in the city of new york,columbia university in the city of new york,new york,2005,2005
+0,Good Match,Good Match,new york university,new york university,new york,2005,2005
+0,Good Match,Good Match,suny at albany,suny at albany,albany,2005,2005
+0,Good Match,Good Match,university of rochester,university of rochester,rochester,2005,2005
+0,Good Match,Good Match,yeshiva university,yeshiva university,new york,2005,2005
+0,Good Match,Good Match,duke university,duke university,durham,2005,2005
+0,Good Match,Good Match,oregon state university,oregon state university,corvallis,2005,2005
+0,Good Match,Good Match,brown university,brown university,providence,2005,2005
+0,Good Match,Good Match,vanderbilt university,vanderbilt university,nashville,2005,2005
+0,Good Match,Good Match,rice university,rice university,houston,2005,2005
+0,Good Match,Good Match,university of utah,university of utah,salt lake city,2005,2005
+0,Good Match,Good Match,university of connecticut,university of connecticut,storrs,2005,2005
+0,Good Match,Good Match,university of kentucky,university of kentucky,lexington,2005,2005
+0,Good Match,Good Match,cornell university,cornell university,ithaca,2005,2005
+0,Good Match,Good Match,university of cincinnati,university of cincinnati,cincinnati,2005,2005
+0,Good Match,Good Match,suny at buffalo,suny at buffalo,buffalo,2005,2005
+0,Good Match,Good Match,suny at stony brook,suny at stony brook,stony brook,2005,2005
+0,Good Match,Good Match,university of kansas,university of kansas,lawrence,2005,2005
+0,Good Match,Good Match,johns hopkins university,johns hopkins university,baltimore,2005,2005
+0.005649718,Good Match,Good Match,university of colorado at denver and health science center,university of colorado at denver and health sciences center,denver,2005,2005
+0,Good Match,Good Match,university of alabama at birmingham,university of alabama at birmingham,birmingham,2005,2005
+0,Good Match,Good Match,california institute of technology,california institute of technology,pasadena,2005,2005
+0,Good Match,Good Match,university of california berkeley,university of california berkeley,berkeley,2005,2005
+0,Good Match,Good Match,university of california davis,university of california davis,davis,2005,2005
+0,Good Match,Good Match,university of california irvine,university of california irvine,irvine,2005,2005
+0,Good Match,Good Match,university of california los angeles,university of california los angeles,los angeles,2005,2005
+0,Good Match,Good Match,university of california riverside,university of california riverside,riverside,2005,2005
+0,Good Match,Good Match,university of california san diego,university of california san diego,la jolla,2005,2005
+0,Good Match,Good Match,university of california santa barbara,university of california santa barbara,santa barbara,2005,2005
+0,Good Match,Good Match,university of california santa cruz,university of california santa cruz,santa cruz,2005,2005
+0,Good Match,Good Match,university of southern california,university of southern california,los angeles,2005,2005
+0,Good Match,Good Match,university of south florida,university of south florida,tampa,2005,2005
+0,Good Match,Good Match,university of iowa,university of iowa,iowa city,2005,2005
+0,Good Match,Good Match,louisiana state university and agricultural and mechanical college,louisiana state university and agricultural and mechanical college,baton rouge,2005,2005
+0,Good Match,Good Match,university of maryland college park,university of maryland college park,college park,2005,2005
+0,Good Match,Good Match,massachusetts institute of technology,massachusetts institute of technology,cambridge,2005,2005
+0,Good Match,Good Match,university of massachusetts amherst,university of massachusetts amherst,amherst,2005,2005
+0,Good Match,Good Match,university of missouri columbia,university of missouri columbia,columbia,2005,2005
+0.03030303,Good Match,Good Match,university of nebraska at lincoln,university of nebraska lincoln,lincoln,2005,2005
+0,Good Match,Good Match,rensselaer polytechnic institute,rensselaer polytechnic institute,troy,2005,2005
+0,Good Match,Good Match,case western reserve university,case western reserve university,cleveland,2005,2005
+0,Good Match,Good Match,carnegie mellon university,carnegie mellon university,pittsburgh,2005,2005
+0,Good Match,Good Match,university of pennsylvania,university of pennsylvania,philadelphia,2005,2005
+0,Good Match,Good Match,virginia polytechnic institute and state university,virginia polytechnic institute and state university,blacksburg,2005,2005
+0,Good Match,Good Match,washington state university,washington state university,pullman,2005,2005
+0,Good Match,Good Match,university of wisconsin madison,university of wisconsin madison,madison,2005,2005
+0,Good Match,Good Match,university of colorado at denver and health sciences center,university of colorado at denver and health sciences center,denver,2005,2005
