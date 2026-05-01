@@ -200,11 +200,11 @@ source_share = source_data |>
 # industry share not increasing meaningfully over time
 p_source = source_share |>
   ggplot(aes(x = herd_year, y = share, alluvium = source, fill = source)) +
-  geom_alluvium(alpha = 0.8) +
+  geom_alluvium(alpha = .9) +
   scale_y_continuous(labels = scales::percent) +
-  scale_fill_viridis_d(end = 0.85, alpha = .8) +
+  scale_fill_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of R&D Expenditures", fill = "Source") +
-  theme_minimal()
+  theme_minimal(base_size = 14)
 p_source
 ggsave("outputs/source_aggregate.png", p_source, width = 8, height = 6, dpi = 300)
 
@@ -245,12 +245,12 @@ p_nonfed = nonfed_share |>
                                             "State and local government",
                                             "All other sources"))) |>
   ggplot(aes(x = herd_year, y = share, alluvium = column, fill = column)) +
-  geom_alluvium(alpha = 0.8) +
+  geom_alluvium(alpha = .9) +
   facet_wrap(~ broad_field) +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of Nonfederal R&D Expenditures", fill = "Source") +
-  theme_minimal()
+  theme_minimal(base_size = 14)
 p_nonfed
 ggsave("outputs/nonfed_by_field.png", p_nonfed, width = 12, height = 8, dpi = 300)
 
@@ -290,12 +290,12 @@ p_source_field = source_field_data |>
                                             "Business",
                                             "All other sources"))) |>
   ggplot(aes(x = herd_year, y = share, alluvium = column, fill = column)) +
-  geom_alluvium(alpha = 0.8) +
+  geom_alluvium(alpha = .9) +
   facet_wrap(~ broad_field) +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of Total R&D Expenditures", fill = "Source") +
-  theme_minimal()
+  theme_minimal(base_size = 14)
 p_source_field
 ggsave("outputs/source_by_field.png", p_source_field, width = 12, height = 8, dpi = 300)
 
@@ -335,7 +335,7 @@ rd_lm_source
 p_rdtype = rd_type_source |>
   mutate(row = factor(row, levels = c("Basic research", "Applied research", "Development"))) |>
   ggplot(aes(x = herd_year, y = share, color = row)) +
-  geom_point(alpha = 0.6) +
+  geom_point(alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE) +
   facet_wrap(~ column) +
   scale_y_continuous(labels = scales::percent) +
@@ -430,6 +430,11 @@ field_arima = field_forecast |>
     )
   }) |>
   ungroup()
+
+# clip ribbon data to fix variation in panel data
+field_arima = field_arima |>
+  mutate(lower = pmax(lower, 0),
+         upper = pmin(upper, 1))
 
 # plot historical + forecast faceted by broad field
 p_forecast = field_forecast |>
