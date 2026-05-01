@@ -94,7 +94,7 @@ p = field_plot |>
              color = broad_field,
              label = field_label)) +
   geom_point(alpha = 0.8) +
-  geom_text_repel(size = 4, max.overlaps = 20, nudge_y = 0.15, direction = "x") +
+  geom_text_repel(size = 6, max.overlaps = 20, nudge_y = 0.15, direction = "x") +
   scale_x_continuous(labels = scales::percent) +
   scale_color_viridis_d(end = .8) +
   scale_size_continuous(
@@ -103,20 +103,27 @@ p = field_plot |>
     labels = c("$500M", "$2B", "$5B", "$10B")
   ) +
   guides(
-    color = guide_legend(override.aes = list(size = 4)),
+    color = guide_legend(override.aes = list(size = 5)),
     size = guide_legend()
   ) +
   coord_cartesian(ylim = c(y_min, y_max), expand = FALSE) +
   labs(x = "Federal Dependency (Fed Share of Expenditures)",
        y = "Total Expenditures (log $)",
        color = "Field Group") +
-  theme_minimal(base_size = 14) +
+  guides(
+    color = guide_legend(override.aes = list(size = 5), nrow = 2),
+    size = guide_legend(nrow = 1)
+  ) +
+  theme_minimal(base_size = 18) +
+  theme(legend.position = 'bottom') +
+
   transition_time(herd_year) +
   labs(subtitle = "Year: {frame_time}") +
-  ease_aes('linear')
+  ease_aes('linear') +
+  shadow_wake(0.03, size = 2, alpha = FALSE, colour = 'grey92', exclude_layer = 2)
 
 # animate and save
-animate(p, nframes = 100, fps = 2, width = 800, height = 600,
+animate(p, nframes = 100, fps = 2, width = 800, height = 900,
         renderer = gifski_renderer("outputs/field_dependency.gif"),
         detail = 1)
 
@@ -154,7 +161,7 @@ p_interactive = field_plot_colored |>
   facet_wrap(~ broad_field, scales = "free_y") +
   scale_y_continuous(labels = scales::percent) +
   labs(x = NULL, y = "Federal Share of R&D Expenditures") +
-  theme_minimal(base_size = 8) +
+  theme_minimal(base_size = 12) +
   theme(legend.position = "none")
 
 # render with hover highlighting and save
@@ -196,15 +203,21 @@ source_share = source_data |>
   mutate(share = total / sum(total)) |>
   ungroup()
 
-# plot -- supplement: shows federal dominance and institution growth
+# plot shows federal dominance and institution growth
 # industry share not increasing meaningfully over time
+# label year
+label_years = max(source_share$herd_year)
+
 p_source = source_share |>
-  ggplot(aes(x = herd_year, y = share, alluvium = source, fill = source)) +
+  ggplot(aes(x = herd_year, y = share, alluvium = source, stratum = source, fill = source, label = source)) +
   geom_alluvium(alpha = .9) +
+  geom_text(stat = "stratum", size = 5, color = "white",nudge_x = -3,
+            data = ~filter(.x, herd_year %in% label_years)) +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
-  labs(x = NULL, y = "Share of R&D Expenditures", fill = "Source") +
-  theme_minimal(base_size = 14)
+  labs(x = NULL, y = "Share of R&D Expenditures") +
+  theme_minimal(base_size = 16) +
+  theme(legend.position = "none")
 p_source
 ggsave("outputs/source_aggregate.png", p_source, width = 8, height = 6, dpi = 300)
 
@@ -238,21 +251,26 @@ nonfed_share = nonfed_data |>
   ungroup()
 
 # plot nonfed only
+label_years = min(nonfed_share$herd_year)
+
 p_nonfed = nonfed_share |>
   mutate(column = factor(column, levels = c("Institution funds",
                                             "Nonprofit organizations",
                                             "Business",
                                             "State and local government",
                                             "All other sources"))) |>
-  ggplot(aes(x = herd_year, y = share, alluvium = column, fill = column)) +
+  ggplot(aes(x = herd_year, y = share, alluvium = column, stratum = column, fill = column, label = column)) +
   geom_alluvium(alpha = .9) +
-  facet_wrap(~ broad_field) +
+  geom_text(stat = "stratum", size = 3, color = "white", hjust = 0,
+            fontface = "bold", data = ~filter(.x, herd_year %in% label_years)) +
+  facet_wrap(~ broad_field,  axes = "all") +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
-  labs(x = NULL, y = "Share of Nonfederal R&D Expenditures", fill = "Source") +
-  theme_minimal(base_size = 14)
+  labs(x = NULL, y = "Share of Nonfederal R&D Expenditures") +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "none")
 p_nonfed
-ggsave("outputs/nonfed_by_field.png", p_nonfed, width = 12, height = 8, dpi = 300)
+ggsave("outputs/nonfed_by_field.png", p_nonfed, width = 9, height = 9, dpi = 300)
 
 
 ############ ALLUVIAL: ALL SOURCES (FEDERAL + NONFEDERAL) BY BROAD FIELD
@@ -282,6 +300,8 @@ source_field_data = bind_rows(fed_data, nonfed_data) |>
   ungroup()
 
 # plot with sources stacked by average share order
+label_years_field = min(source_field_data$herd_year)
+
 p_source_field = source_field_data |>
   mutate(column = factor(column, levels = c("Federal",
                                             "Institution funds",
@@ -289,15 +309,18 @@ p_source_field = source_field_data |>
                                             "State and local government",
                                             "Business",
                                             "All other sources"))) |>
-  ggplot(aes(x = herd_year, y = share, alluvium = column, fill = column)) +
+  ggplot(aes(x = herd_year, y = share, alluvium = column, stratum = column, fill = column, label = column)) +
   geom_alluvium(alpha = .9) +
-  facet_wrap(~ broad_field) +
+  geom_text(stat = "stratum", size = 3, color = "white", hjust = 0,
+            fontface = "bold", data = ~filter(.x, herd_year %in% label_years)) +
+  facet_wrap(~ broad_field,  axes = "all") +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
-  labs(x = NULL, y = "Share of Total R&D Expenditures", fill = "Source") +
-  theme_minimal(base_size = 14)
+  labs(x = NULL, y = "Share of Total R&D Expenditures") +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "none")
 p_source_field
-ggsave("outputs/source_by_field.png", p_source_field, width = 12, height = 8, dpi = 300)
+ggsave("outputs/source_by_field.png", p_source_field, width = 9, height = 9, dpi = 300)
 
 
 ############ R&D TYPE: TRENDS IN BASIC VS APPLIED VS DEVELOPMENT
@@ -341,7 +364,7 @@ p_rdtype = rd_type_source |>
   scale_y_continuous(labels = scales::percent) +
   scale_color_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of R&D Expenditures", color = "R&D Type") +
-  theme_minimal()
+  theme_minimal(base_size = 16)
 p_rdtype
 ggsave("outputs/rdtype_lm.png", p_rdtype, width = 10, height = 6, dpi = 300)
 
@@ -374,7 +397,7 @@ p_industry = nonfed_data |>
   geom_smooth(method = "lm", se = FALSE, linetype = "dashed") +
   facet_wrap(~ broad_field, scales = "free_y") +
   labs(x = NULL, y = "Business R&D ($)") +
-  theme_minimal()
+  theme_minimal(base_size = 16)
 p_industry
 ggsave("outputs/industry_by_field.png", p_industry, width = 12, height = 8, dpi = 300)
 
@@ -402,7 +425,7 @@ p_foreign = foreign_share |>
   geom_smooth(method = "lm", se = FALSE, linetype = "dashed", linewidth = 0.5) +
   scale_y_continuous(labels = scales::percent) +
   labs(x = NULL, y = "Foreign Funds as Share of Total R&D") +
-  theme_minimal()
+  theme_minimal(base_size = 16)
 p_foreign
 ggsave("outputs/foreign_share.png", p_foreign, width = 8, height = 5, dpi = 300)
 
@@ -450,6 +473,10 @@ p_forecast = field_forecast |>
   scale_y_continuous(labels = scales::percent) +
   coord_cartesian(ylim = c(0, 1)) +
   labs(x = NULL, y = "Federal Share of R&D Expenditures") +
-  theme_minimal()
+  theme_minimal(base_size = 16)
 p_forecast
 ggsave("outputs/forecast_by_field.png", p_forecast, width = 12, height = 8, dpi = 300)
+
+########## TIDY
+rm(list = ls())
+gc()

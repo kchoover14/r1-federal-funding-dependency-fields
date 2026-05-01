@@ -934,13 +934,6 @@ rd_type_source |>
   theme_minimal()
 
 
-############ LINE CHART FOR FOREIGN FUND SHARE
-
-
-
-
-##############herd |>
-  filter(question == "Type of R&D conducted") |>
-  distinct(row)########## TIDY
-#rm(list = ls())
-#gc()
+########## TIDY
+rm(list = ls())
+gc()
