@@ -103,20 +103,15 @@ p = field_plot |>
     labels = c("$500M", "$2B", "$5B", "$10B")
   ) +
   guides(
-    color = guide_legend(override.aes = list(size = 5)),
-    size = guide_legend()
-  ) +
+  color = guide_legend(override.aes = list(size = 5), nrow = 2),
+  size = guide_legend(nrow = 1)
+)
   coord_cartesian(ylim = c(y_min, y_max), expand = FALSE) +
   labs(x = "Federal Dependency (Fed Share of Expenditures)",
        y = "Total Expenditures (log $)",
        color = "Field Group") +
-  guides(
-    color = guide_legend(override.aes = list(size = 5), nrow = 2),
-    size = guide_legend(nrow = 1)
-  ) +
   theme_minimal(base_size = 18) +
-  theme(legend.position = 'bottom') +
-
+  theme(legend.position = 'bottom', legend.direction = "vertical", legend.box = "horizontal") +
   transition_time(herd_year) +
   labs(subtitle = "Year: {frame_time}") +
   ease_aes('linear') +
@@ -174,7 +169,6 @@ p_interactive_widget = girafe(
     opts_toolbar(saveaspng = FALSE, hidden = c("lasso_select", "lasso_deselect", "zoom_rect", "zoom_reset"))
   )
 )
-
 p_interactive_widget
 saveWidget(p_interactive_widget, "outputs/federal_share_by_field.html", selfcontained = TRUE)
 
@@ -211,15 +205,12 @@ label_years = max(source_share$herd_year)
 p_source = source_share |>
   ggplot(aes(x = herd_year, y = share, alluvium = source, stratum = source, fill = source, label = source)) +
   geom_alluvium(alpha = .9) +
-  geom_text(stat = "stratum", size = 5, color = "white",nudge_x = -3,
-            data = ~filter(.x, herd_year %in% label_years)) +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of R&D Expenditures") +
-  theme_minimal(base_size = 16) +
-  theme(legend.position = "none")
+  theme_minimal(base_size = 8)
 p_source
-ggsave("outputs/source_aggregate.png", p_source, width = 8, height = 6, dpi = 300)
+ggsave("outputs/source_aggregate.png", p_source, width = 4, height = 2, dpi = 300)
 
 
 ############ ALLUVIAL: NONFEDERAL SOURCES BY BROAD FIELD
@@ -261,14 +252,11 @@ p_nonfed = nonfed_share |>
                                             "All other sources"))) |>
   ggplot(aes(x = herd_year, y = share, alluvium = column, stratum = column, fill = column, label = column)) +
   geom_alluvium(alpha = .9) +
-  geom_text(stat = "stratum", size = 3, color = "white", hjust = 0,
-            fontface = "bold", data = ~filter(.x, herd_year %in% label_years)) +
   facet_wrap(~ broad_field,  axes = "all") +
   scale_y_continuous(labels = scales::percent) +
   scale_fill_viridis_d(end = 0.85) +
   labs(x = NULL, y = "Share of Nonfederal R&D Expenditures") +
-  theme_minimal(base_size = 14) +
-  theme(legend.position = "none")
+  theme_minimal(base_size = 14)
 p_nonfed
 ggsave("outputs/nonfed_by_field.png", p_nonfed, width = 9, height = 9, dpi = 300)
 
