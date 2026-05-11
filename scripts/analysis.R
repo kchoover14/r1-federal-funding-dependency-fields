@@ -25,7 +25,12 @@ herd = read.csv("data/herd-clean.csv")
 field_share = herd |>
   filter(question %in% c("Expenditures by S&E field",
                          "Expenditures by non-S&E field"),
-         !grepl(", all$|^All$", row)) |>
+         !grepl("^All$", row),
+         !(grepl(", all$", row) &
+             !row %in% c("Computer sciences, all",
+                         "Mathematical sciences, all",
+                         "Psychology, all",
+                         "Other sciences, all"))) |>
   pivot_wider(names_from = column, values_from = data) |>
   mutate(federal_share = Federal / Total,
          log_total = log(Total))
@@ -77,9 +82,27 @@ field_plot = field_share_se |>
       row == "Social sciences, other"                       ~ "SocSci-Other",
       row == "Social sciences, political science"           ~ "PoliSci",
       row == "Social sciences, sociology"                   ~ "Soc",
+      row == "Computer sciences, all"                       ~ "CompSci",
+      row == "Mathematical sciences, all"                   ~ "Math",
+      row == "Psychology, all"                              ~ "Psych",
+      row == "Other sciences, all"                          ~ "Other",
       TRUE ~ row
     )
   )
+
+# table 1
+field_plot |>
+  group_by(broad_field, field_label) |>
+  summarise(
+    peak_share  = max(mean_share, na.rm = TRUE),
+    peak_year   = herd_year[which.max(mean_share)],
+    min_share   = min(mean_share, na.rm = TRUE),
+    start_share = mean_share[herd_year == min(herd_year)],
+    end_share   = mean_share[herd_year == max(herd_year)],
+    net_change  = end_share - start_share,
+    .groups = "drop"
+  ) |>
+  write.csv("outputs/table1_field_summary.csv", row.names = FALSE)
 
 # y axis limits: use quantiles to avoid outlier years (eng/env enter at low values in 1979)
 # pulling from early eng/env years creates empty lower half of plot
@@ -105,7 +128,7 @@ p = field_plot |>
   guides(
   color = guide_legend(override.aes = list(size = 5), nrow = 2),
   size = guide_legend(nrow = 1)
-)
+) +
   coord_cartesian(ylim = c(y_min, y_max), expand = FALSE) +
   labs(x = "Federal Dependency (Fed Share of Expenditures)",
        y = "Total Expenditures (log $)",
