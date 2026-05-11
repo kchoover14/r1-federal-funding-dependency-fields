@@ -114,13 +114,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="executive-summary" class="level2">
 <h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
 <p><strong>Problem:</strong> Federal funding is the dominant source of research and development (R&amp;D) expenditures at R1 universities, but aggregate trends obscure substantial variation across scientific disciplines. As federal budgets face pressure and policy priorities shift, understanding which fields are most dependent on federal dollars – and how that dependency has changed over time – is essential for anticipating the impact of funding disruptions on the broader research pipeline.</p>
-<p><strong>Approach:</strong> This analysis extends prior work on aggregate federal funding dependency at R1 institutions by examining field-level variation using the NSF Higher Education Research and Development (HERD) Survey (1974–2024). Federal share of total R&amp;D expenditures is calculated for 24 science and engineering sub-fields across five decades. I investigate how funding investments vary by sector and field over time including R&amp;D types (basic, applied, development), where data are available based on HERD survey questions (which changed in 2010). ARIMA forecasting projects federal share trajectories through 2034 by broad field. Forecasts assume continuation of historical patterns and do not account for the 2025 federal funding disruptions and the planned 2026, including the signalling from the NSF that the social sciences directorate is to be phased out by 2027.</p>
-<p><strong>Insights:</strong> Federal dependency has declined across virtually every S&amp;E field since a peak in 1979, coinciding with the post-Cold War unwinding of defense and space-race research investment. Physical sciences and geosciences remain the most federally dependent fields; social sciences and life sciences have seen the largest absolute declines but show flat forecasts, suggesting a floor effect. Federal dollars are shifting away from basic research toward applied research faster than nonfederal dollars, while industry investment is not filling the basic research gap – it is growing only in the fields that have specific consumer (computer sciences) or health applications (life sciences). Foreign funding share peaked in 2016–2017 and has plateaued, reflecting COVID disruptions and potential geopolitical decoupling.</p>
+<p><strong>Approach:</strong> This analysis extends prior work on aggregate federal funding dependency at R1 institutions by examining field-level variation using the NSF Higher Education Research and Development (HERD) Survey (1974–2024). Federal share of total R&amp;D expenditures is calculated for 28 science and engineering sub-fields across five decades. I investigate how funding investments vary by sector and field over time including R&amp;D types (basic, applied, development), where data are available based on HERD survey questions (which changed in 2010). ARIMA forecasting projects federal share trajectories through 2034 by broad field. Forecasts assume continuation of historical patterns and do not account for the 2025 federal funding disruptions and the planned 2026, including the signalling from the NSF that the social sciences directorate is to be phased out by 2027.</p>
+<p><strong>Insights:</strong> Federal dependency has declined across virtually every S&amp;E field since a peak in 1979, coinciding with the post-Cold War unwinding of defense and space-race research investment. Physical sciences, mathematical sciences, computer sciences, and psychology are the most federally dependent fields at end of series (70%+); social sciences and life sciences have seen the largest absolute declines but show flat forecasts, suggesting a floor effect. Federal dollars are shifting away from basic research toward applied research faster than nonfederal dollars, while industry investment is not filling the basic research gap – it is growing only in the fields that have specific consumer (computer sciences) or health applications (life sciences). Foreign funding share peaked in 2016–2017 and has plateaued, reflecting COVID disruptions and potential geopolitical decoupling.</p>
 <p><strong>Significance:</strong> The field-level picture reveals a more fragmented and uneven research funding landscape than aggregate trends suggest. Disciplines like physical sciences and geosciences face both high federal dependency and declining investment, with little nonfederal backstop. The simultaneous shift toward applied R&amp;D types driven by federal priorities raises questions about the long-term health of basic research – particularly in fields where industry shows no compensating interest.</p>
 <p><strong>Key Findings</strong></p>
 <ul>
 <li>Federal dependency peaked across all S&amp;E fields in 1979 and has declined steadily since; engineering and environmental sciences entered the survey in 1979, coinciding with the founding of the Department of Energy.</li>
-<li>Physical sciences (astronomy, physics) remain the most federally dependent fields (70%+); social sciences and agricultural sciences are least dependent (35–50%), with larger institutional shares for the former.</li>
+<li>Physical sciences (astronomy, physics, 75%+), mathematical sciences (76%), computer sciences (72%), and psychology (71%) are the most federally dependent fields at end of series; social sciences, agricultural sciences, and other sciences are least dependent (36–53%), with larger institutional shares for the former.</li>
 <li>Federal dollars are shifting away from basic research (-0.42%/year) toward applied research (+0.28%/year) faster than nonfederal dollars, indicating that federal priorities – not institutional choices – are driving the R&amp;D type shift–with the caveat that basic research still dominates.</li>
 <li>Business investment in university R&amp;D is growing only in computer sciences (+8.2%/year relative) and life sciences (+6.9%/year), fields already oriented toward applied work; investments are declining in geosciences, psychology, and social sciences.</li>
 <li>ARIMA forecasts project continued decline in federal share across engineering, environmental sciences, and physical sciences through 2034, with social sciences and life sciences holding relatively flat.</li>
@@ -149,10 +149,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="research-answers">Research Answers</h2>
 <section id="federal-dependency-by-field-over-time" class="level3">
 <h3 class="anchored" data-anchor-id="federal-dependency-by-field-over-time">Federal Dependency by Field Over Time</h3>
-<p>Federal share of total R&amp;D expenditures varies substantially across S&amp;E sub-fields and has shifted markedly over five decades. The animated figure below shows federal dependency (x-axis) against total R&amp;D expenditure (y-axis, log scale) for 24 sub-fields from 1974 to 2009. Bubble size encodes total R&amp;D expenditure. Engineering and environmental sciences sub-fields enter the series in 1979, coinciding with the founding of the Department of Energy and the addition of these fields to the HERD survey instrument. Across all fields, federal share peaked in 1979 – the tail end of Cold War and space-race investment – and has declined since. Physical sciences (astronomy, physics) maintain the highest dependency throughout; life sciences (medical, biological) carry the highest total R&amp;D expenditure but sit at mid-range dependency; social sciences cluster at low dependency with little movement. Engineering enters at ~90%+ federal share in 1979 and declines most steeply, reflecting early DOE-driven investment giving way to diversified funding.</p>
+<p>Federal share of total R&amp;D expenditures varies substantially across S&amp;E sub-fields and has shifted markedly over five decades. The animated figure below shows federal dependency (x-axis) against total R&amp;D expenditure (y-axis, log scale) for 28 sub-fields from 1974 to 2009. Bubble size encodes total R&amp;D expenditure. Engineering and environmental sciences sub-fields enter the series in 1979, coinciding with the founding of the Department of Energy and the addition of these fields to the HERD survey instrument. Across all fields, federal share peaked in 1979 – the tail end of Cold War and space-race investment – and has declined since. Physical sciences (astronomy, physics) maintain the highest dependency throughout; life sciences (medical, biological) carry the highest total R&amp;D expenditure but sit at mid-range dependency; social sciences cluster at low dependency with little movement. Engineering enters at ~90%+ federal share in 1979 and declines most steeply, reflecting early DOE-driven investment giving way to diversified funding.</p>
 <p><strong>Figure 1. Federal share of R&amp;D expenditures by sub-field, 1974–2009. Bubble size indicates total R&amp;D expenditure (log scale). Color indicates broad field group.</strong></p>
 <p><img src="outputs/field_dependency.gif" class="img-fluid"></p>
-<p><strong>Interpretation:</strong> As shown in Figure 1, physical sciences maintain the highest federal dependency and high total R&amp;D expenditure throughout the series while social sciences have low dependency and low total expenditure. Engineering sub-fields enter at very high dependency (~90%+) in 1979 and decline rapidly.</p>
+<p><strong>Interpretation:</strong> As shown in Figure 1, physical sciences maintain high federal dependency and high total R&amp;D expenditure throughout the series. Mathematical sciences (76% end share) and computer sciences (72%) emerge as highly federally dependent fields alongside physical sciences, while psychology (71%) shows higher dependency than its social science neighbors. Social sciences have low dependency and low total expenditure. Engineering sub-fields enter at very high dependency (~90%+) in 1979 and decline rapidly.</p>
 <p>The 1979 peak is not an artifact. Federal R&amp;D as a share of GDP reached 1.86% at its prior peak in 1964; by 2021 it had fallen to 0.66%, with business funding rising to 2.52%. The animation captures the institutional consequence of that national-level shift – universities absorbing a declining federal share across every discipline simultaneously, while total R&amp;D expenditures continued to grow. A brief uptick is visible around 2010–2011, reflecting the American Recovery and Reinvestment Act (ARRA) infusion of federal research dollars during the economic recovery, before the decline resumes from 2012 onward. Table 1 summarizes peak share, peak year, minimum share, and net change per sub-field. Engineering bioengineering and biomedical is the only sub-field showing net positive change (+10.2%), reflecting the growth of NIH-adjacent translational research over the period. Agricultural sciences shows the smallest absolute decline (-1.3%), consistent with its historically low federal share and stable USDA funding base.</p>
 <p><strong>Table 1. Federal share of R&amp;D expenditures by sub-field: peak, minimum, and net change, 1974–2009.</strong></p>
 <table class="caption-top table">
@@ -237,6 +237,20 @@ ul.task-list li input[type="checkbox"] {
 <td>-15.8%</td>
 </tr>
 <tr class="odd">
+<td>Mathematical sciences</td>
+<td>89.1%</td>
+<td>1975</td>
+<td>67.5%</td>
+<td>-20.6%</td>
+</tr>
+<tr class="even">
+<td>Computer sciences</td>
+<td>86.1%</td>
+<td>1974</td>
+<td>60.6%</td>
+<td>-25.5%</td>
+</tr>
+<tr class="odd">
 <td>Physical sciences, Astro</td>
 <td>86.9%</td>
 <td>1985</td>
@@ -244,60 +258,74 @@ ul.task-list li input[type="checkbox"] {
 <td>-6.1%</td>
 </tr>
 <tr class="even">
+<td>Psychology</td>
+<td>83.3%</td>
+<td>1976</td>
+<td>65.7%</td>
+<td>-17.3%</td>
+</tr>
+<tr class="odd">
 <td>Physical sciences, Chem</td>
 <td>85.8%</td>
 <td>1974</td>
 <td>63.7%</td>
 <td>-18.4%</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Physical sciences, Other</td>
 <td>84.8%</td>
 <td>1976</td>
 <td>52.2%</td>
 <td>-18.1%</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Life sciences, Bio</td>
 <td>80.8%</td>
 <td>1975</td>
 <td>62.1%</td>
 <td>-14.9%</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Life sciences, Other</td>
 <td>77.4%</td>
 <td>1975</td>
 <td>57.2%</td>
 <td>-15.6%</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Life sciences, Med</td>
 <td>74.6%</td>
 <td>1974</td>
 <td>53.9%</td>
 <td>-15.6%</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Social sciences, Soc</td>
 <td>73.3%</td>
 <td>1980</td>
 <td>48.3%</td>
 <td>-9.8%</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Engineering, Mats</td>
 <td>67.5%</td>
 <td>2005</td>
 <td>56.4%</td>
 <td>-0.4%</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Engineering, Civil</td>
 <td>66.4%</td>
 <td>1980</td>
 <td>50.0%</td>
 <td>-8.3%</td>
+</tr>
+<tr class="odd">
+<td>Other sciences</td>
+<td>63.5%</td>
+<td>1974</td>
+<td>38.0%</td>
+<td>-25.5%</td>
 </tr>
 <tr class="even">
 <td>Engineering, Bio</td>
@@ -340,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sub-field-trends-in-federal-dependency" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="sub-field-trends-in-federal-dependency">Sub-Field Trends in Federal Dependency</h3>
-<p>The interactive figure below shows loess-smoothed federal share trends for each sub-field from 1974 to 2009, faceted by broad field group. Lines are colored by rank of ending federal share value – darker lines indicate higher federal dependency at the end of the series. Hover over a line to identify the sub-field.</p>
+<p>The interactive figure below shows loess-smoothed federal share trends for each sub-field from 1974 to 2009, faceted by broad field group. Lines are colored by rank of ending federal share value – darker lines indicate higher federal dependency at the end of the series. Hover over a line to identify the sub-field. Computer sciences, mathematical sciences, psychology, and other sciences appear as single lines within their respective broad field panels.</p>
 <p>Decline is near-universal across sub-fields, but rates differ substantially within broad fields. In engineering, aeronautical and astronautical sciences maintain the highest dependency while civil and general engineering decline furthest – a gap of nearly 20 percentage points by end of series. In life sciences, biological and medical sciences hold above 50% while agricultural sciences fall to ~35%, reflecting heavy USDA and institutional funding in that sub-field rather than federal research grants. Social sciences show the most compressed range, with all sub-fields declining modestly and clustering between 35–55% by end of series – the narrowest spread of any broad field group. Physical sciences show the opposite pattern: a wide spread maintained throughout, with astronomy remaining above 70% and physical sciences other falling below 60%.</p>
 <p><strong>Figure 2. Federal share of R&amp;D expenditures by sub-field, 1974–2009. Lines smoothed using loess. Color indicates relative federal dependency rank within each broad field at end of series (darker = higher dependency).</strong></p>
 <div class="column-page">
@@ -488,7 +516,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="study-design" class="level2">
 <h2 class="anchored" data-anchor-id="study-design">Study Design</h2>
 <p><strong>Data Source:</strong> NSF National Center for Science and Engineering Statistics (NCSES) Higher Education Research and Development (HERD) Survey, fiscal years 1974–2024. Data accessed via the NCSES data portal. The HERD Survey replaced the Academic R&amp;D Expenditures Survey in FY 2010; data from both instruments are included in this analysis.</p>
-<p><strong>Data Handling:</strong> Analysis is restricted to R1 doctoral universities (Carnegie Classification) matched to HERD institutions via cleaned institution names. Non-S&amp;E fields (business, humanities, law, social work, visual and performing arts) are excluded from the main field-level analysis due to structural data gaps before 2003 and their limited relevance to the core research pipeline question. The “All” and field-group aggregate rows are excluded to avoid double-counting; analysis uses sub-field rows only for the bubble and loess figures, and broad field aggregates for the alluvial and forecast figures. Federal share is calculated as federal expenditures divided by total expenditures for each field-institution-year observation. Observations with missing federal share (NA) are excluded; these represent structural gaps in reporting, not true zeros. Nonfederal source and R&amp;D type data are available from 2010 onward only, reflecting the HERD instrument change. A NCSES typo (“Nonprofit organziations”) is corrected in the analysis script.</p>
+<p><strong>Data Handling:</strong> Analysis is restricted to R1 doctoral universities (Carnegie Classification) matched to HERD institutions via cleaned institution names. Non-S&amp;E fields (business, humanities, law, social work, visual and performing arts) are excluded from the main field-level analysis due to structural data gaps before 2003 and their limited relevance to the core research pipeline question. The “All” and field-group aggregate rows are excluded to avoid double-counting; analysis uses sub-field rows only for the bubble and loess figures, and broad field aggregates for the alluvial and forecast figures. Computer sciences, mathematical sciences, psychology, and other sciences appear only as aggregate rows in the HERD instrument and are included at that level. Federal share is calculated as federal expenditures divided by total expenditures for each field-institution-year observation. Observations with missing federal share (NA) are excluded; these represent structural gaps in reporting, not true zeros. Nonfederal source and R&amp;D type data are available from 2010 onward only, reflecting the HERD instrument change. A NCSES typo (“Nonprofit organziations”) is corrected in the analysis script.</p>
 <p><strong>Analytical Approach:</strong></p>
 <ol type="1">
 <li>Federal share of total R&amp;D expenditures calculated by sub-field and year across all R1 institutions</li>
